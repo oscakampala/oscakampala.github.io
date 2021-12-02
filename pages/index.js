@@ -46,11 +46,36 @@ export default function Home() {
               Checkout our podcasts on google podcasts from our FNL sessions
             </p>
           </a>
+          <a
+            href="https://twitter.com/oscakampala"
+            className="card"
+          >
+            <h3>Twitter &rarr;</h3>
+            <p>Follow us on twitter</p>
+          </a>
+          <a
+            href="https://github.com/oscakampala/made-in-uganda"
+            className="card"
+          >
+            <h3>Made In Uganda Projects &rarr;</h3>
+            <p>As part of the Build Uganda Buy Uganda Initiative, we encourage all software developers to showcase their open source projects</p>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/open-source-community-kampala/"
+            className="card"
+          >
+            <h3>Linked In &rarr;</h3>
+            <p>Follow us on LinkedIn</p>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCtRZkl24Sfo6wa_uzCFEnGA"
+            className="card"
+          >
+            <h3>Youtube Channel &rarr;</h3>
+            <p>Please subscribe to our Youtube Channel</p>
+          </a>
         </div>
 
-        <video autoPlay loop style={{ width: '500px', height: '500px' }}>
-          <source src="https://www.youtube.com/embed/dct4FUadGm4" />
-        </video>
       </main>
 
       <footer>
@@ -60,7 +85,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <p>The Open Source Community Africa</p>
+          <p>The Open Source Community Africa (oscakampala@gmail.com)</p>
         </a>
       </footer>
 
