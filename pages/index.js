@@ -4,48 +4,52 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>OSCA Kampala Chapter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to the <a href="https://oscakampala.github.io/">OSCA Kampala Chapter</a>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Join the  <code>future of open source</code> collaborators
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://chat.whatsapp.com/D2bB0UWDgT34Fic3Hnb2fA" className="card">
+            <h3>Whatsapp &rarr;</h3>
+            <p>Join our whatsapp group</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://discord.gg/pRJgjH9SwR" className="card">
+            <h3>Discord &rarr;</h3>
+            <p>Join us on the discord server</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://t.me/oscakampala"
             className="card"
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Telegram &rarr;</h3>
+            <p>Connect with our telegram group</p>
+          </a>
+
+          <a
+            href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy82ODg4NjU1NC9wb2RjYXN0L3Jzcw=="
+            className="card"
+          >
+            <h3>Podcasts &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Checkout our podcasts on google podcasts from our FNL sessions
             </p>
           </a>
         </div>
+
+        <video autoPlay loop style={{ width: '500px', height: '500px' }}>
+          <source src="https://www.youtube.com/embed/dct4FUadGm4" />
+        </video>
       </main>
 
       <footer>
@@ -55,7 +59,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+          <p>The Open Source Community Africa</p>
         </a>
       </footer>
 
