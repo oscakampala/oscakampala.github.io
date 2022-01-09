@@ -1,5 +1,23 @@
 import Head from 'next/head'
-import React from "react";
+import * as React from 'react';
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import PodcastsIcon from '@mui/icons-material/Podcasts';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
+const Item = styled(Paper)(({ theme }) => ({
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: 'center',
+  color: theme.palette.text.secondary,
+}));
 
 export default function Home() {
   return (
@@ -19,61 +37,73 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="https://chat.whatsapp.com/D2bB0UWDgT34Fic3Hnb2fA" className="card">
-            <h3>Whatsapp &rarr;</h3>
-            <p>Join our whatsapp group</p>
-          </a>
 
-          <a href="https://discord.gg/pRJgjH9SwR" className="card">
-            <h3>Discord &rarr;</h3>
-            <p>Join us on the discord server</p>
-          </a>
+          <Box sx={{ flexGrow: 1 }}>
+            <Grid container spacing={2}>
+              <Grid xs={3}>
+                <a href="https://chat.whatsapp.com/D2bB0UWDgT34Fic3Hnb2fA">
+                  <WhatsAppIcon fontSize="large"/>
+                </a>
+              </Grid>
 
-          <a
-            href="https://t.me/oscakampala"
-            className="card"
-          >
-            <h3>Telegram &rarr;</h3>
-            <p>Connect with our telegram group</p>
-          </a>
+              <Grid xs={3}>
+                <a href="https://t.me/oscakampala">
+                  <TelegramIcon fontSize="large"/>
+                </a>
+              </Grid>
 
-          <a
-            href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy82ODg4NjU1NC9wb2RjYXN0L3Jzcw=="
-            className="card"
-          >
-            <h3>Podcasts &rarr;</h3>
-            <p>
-              Checkout our podcasts on google podcasts from our FNL sessions
-            </p>
-          </a>
-          <a
-            href="https://twitter.com/oscakampala"
-            className="card"
-          >
-            <h3>Twitter &rarr;</h3>
-            <p>Follow us on twitter</p>
-          </a>
-          <a
-            href="https://github.com/oscakampala/made-in-uganda"
-            className="card"
-          >
-            <h3>Made In Uganda Projects &rarr;</h3>
-            <p>As part of the Build Uganda Buy Uganda Initiative, we encourage all software developers to showcase their open source projects</p>
-          </a>
-          <a
-            href="https://www.linkedin.com/company/open-source-community-kampala/"
-            className="card"
-          >
-            <h3>Linked In &rarr;</h3>
-            <p>Follow us on LinkedIn</p>
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCtRZkl24Sfo6wa_uzCFEnGA"
-            className="card"
-          >
-            <h3>Youtube Channel &rarr;</h3>
-            <p>Please subscribe to our Youtube Channel</p>
-          </a>
+              <Grid xs={3}>
+                <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy82ODg4NjU1NC9wb2RjYXN0L3Jzcw==">
+                  <PodcastsIcon fontSize="large"/>
+                </a>
+              </Grid>
+
+              <Grid xs={3}>
+                <a href="https://twitter.com/oscakampala">
+                  <TwitterIcon fontSize="large"/>
+                </a>
+              </Grid>
+
+            </Grid>
+          </Box>
+
+          <Box sx={{ flexGrow: 1 }}>
+            <Grid container spacing={2}>
+              <Grid xs={12}>
+                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
+              </Grid>
+            </Grid>
+          </Box>
+
+          <Box sx={{ flexGrow: 1 }}>
+            <Grid container spacing={2}>
+              <Grid xs={3}>
+                <a href="https://www.linkedin.com/company/open-source-community-kampala/">
+                  <LinkedInIcon fontSize="large"/>
+                </a>
+              </Grid>
+
+              <Grid xs={3}>
+                <a href="https://www.youtube.com/channel/UCtRZkl24Sfo6wa_uzCFEnGA">
+                  <YouTubeIcon fontSize="large"/>
+                </a>
+              </Grid>
+
+              <Grid xs={3}>
+                <a href="https://github.com/oscakampala/made-in-uganda">
+                  <GitHubIcon fontSize="large"/>
+                </a>
+              </Grid>
+
+              <Grid xs={3}>              
+                <a href="https://discord.gg/pRJgjH9SwR">
+                  discord
+                </a>
+              </Grid>
+            </Grid>
+          </Box>
+          
+          
         </div>
 
       </main>
