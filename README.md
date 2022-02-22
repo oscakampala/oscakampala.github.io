@@ -13,10 +13,11 @@ If you need more help, please contact us at [community@oscakampala.org](mailto:c
 ## 🏁 How to Get Started
 
 To get started in the open source there's a multitude of tools you can use but first of all you will need to know about OSCA Kampala. Read our **Introduction** section:
-[![Gitter](https://badges.gitter.im/coqui-ai/TTS.svg)](https://gitter.im/coqui-ai/TTS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+[![Gitter](https://badges.gitter.im/OSCA-Kampala-Chapter/TTS.svg)](https://gitter.im/OSCA-Kampala-Chapter/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![License](https://img.shields.io/badge/License-MIT%202.0-brightgreen.svg)](https://opensource.org/licenses/MIT-2.0)
 
-📰 [**Subscribe to OSCA-KLA Newsletter**](https://OSCA-Kla.org/?subscription=true)
+📰 [**Subscribe to OSCA-KLA Newsletter**](https://www.getrevue.co/profile/oscakampala)
 
 🎧 [Anchor Podcasts](https://anchor.fm/osca-kampala) and [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy82ODg4NjU1NC9wb2RjYXN0L3Jzcw==)
 
@@ -38,28 +39,19 @@ Please use our dedicated channels for questions and discussion. Help is much mor
 [github issue tracker]: https://github.com/OSCA-Kampala-Chapter/tts/issues
 [github discussions]: https://github.com/OSCA-Kampala-Chapter/TTS/discussions
 [gitter room]: https://gitter.im/OSCA-Kampala-Chapter?utm_source=share-link&utm_medium=link&utm_campaign=share-link
-[tutorials and examples]: https://github.com/OSCA-Kampala-Chapter/TTS/wiki/TTS-Notebooks-and-Tutorials
 
 ## 🔗 Links and Resources
 
-| Type                   | Links                                                                                                                                                                         |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 💼 **Documentation**   | [Documents](https://github.com/OSCA-Kampala-Chapter/First-contribution-practice)                                                                                                                          |
-| ⚒️ **Built Tools**    | [Made in Uganda](https://github.com/OSCA-Kampala-Chapter/made-in-ugandadev)                                                                                             |
-| 👩‍💻 **Contributing**    | [CONTRIBUTING.md](https://github.com/OSCA-Kampala-Chapter/TTS/blob/main/CONTRIBUTING.md)                                                                                      |
+| Type                 | Links                                                                                    |
+| -------------------- | ---------------------------------------------------------------------------------------- |
+| 💼 **Documentation** | [Documents](https://github.com/OSCA-Kampala-Chapter/First-contribution-practice)         |
+| ⚒️ **Built Tools**   | [Made in Uganda](https://github.com/OSCA-Kampala-Chapter/made-in-ugandadev)              |
+| 👩‍💻 **Contributing**  | [CONTRIBUTING.md](https://github.com/OSCA-Kampala-Chapter/TTS/blob/main/CONTRIBUTING.md) |
 
-
-## How to get in touch
+## ☎️ How to get in touch
 
 If you need more help, please join our whatsapp group [Whatsapp group](https://chat.whatsapp.com/D2bB0UWDgT34Fic3Hnb2fA), [Telegram Chat](https://t.me/oscakampala) or join our [Discord ](https://discord.gg/pRJgjH9SwR) server.
 
-## Contributors to this Project ✨
-
-These awesome individuals keep our code base clean, they worked on the documentation and the content on our organisation website \([emoji key](https://allcontributors.org/docs/en/emoji-key)\):
-
-| [![](https://avatars.githubusercontent.com/u/26835888?v=4) **Were Samson Bruno**](https://github.com/Samsonroyal) [📖](https://github.com/OSCA-Kampala-Chapter/documentation/commits?author=Samsonroyal) | [![](https://avatars.githubusercontent.com/u/25217168?v=4) **Kakooza Jerry**](https://github.com/KakoozaJerry) [📖](https://github.com/OSCA-Kampala-Chapter/documentation/commits?author=KakoozaJerry) | 
- :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-## Finally ✨
+## ✨ This spells the end
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
