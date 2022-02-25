@@ -97,7 +97,7 @@ export default function Home() {
 
               <Grid xs={3}>              
                 <a href="https://discord.gg/pRJgjH9SwR">
-                  discord
+                <discordAppIcon fontSize="large"/>
                 </a>
               </Grid>
             </Grid>
