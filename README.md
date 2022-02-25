@@ -1,27 +1,21 @@
 # 📜 The Introduction
 
-**Open Source Community Kampala** is an organisation for open-source lovers, enthusiasts, advocates, and experts within and across Uganda but centered in Kampala with the sole aim of increasing the rate of credible contributions by Ugandan software developers, designers, writers, and everyone involved in the sphere of technology to open source projects both locally and globally, changing the perception the world has of our developers; we are not just users of software tools, we are also **Software creators**.
+[![Gitter](https://badges.gitter.im/OSCA-Kampala-Chapter/TTS.svg)](https://gitter.im/OSCA-Kampala-Chapter/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![License](https://img.shields.io/badge/License-MIT%202.0-brightgreen.svg)](https://opensource.org/licenses/MIT-2.0)
 
-![](.gitbook/assets/osca-logo_colored.png)
+**Open Source Community Kampala** is an organisation for open-source lovers, enthusiasts, advocates, and experts within and across Uganda but centered in Kampala with the sole aim of increasing the rate of credible contributions by Ugandan software developers, designers, writers, and everyone involved in the sphere of technology to open source projects both locally and globally, changing the perception the world has of our developers; we are not just users of software tools, we are also **Software creators**.
 
 You are welcome to our documentation guide; if you are looking to join **OSCA-Kampala Chapter** and want to learn more about **Free and Open Source Software** and also want to know how you can make a contribution to any of our projects. Read this documentaion as a guide; Although it is a work in progress, please feel free to contribute and give us feedback to improve it.
 
 To suggest changes, click the GitHub icon on any docs page and make a pull request. If you're not sure how to do that, read our [documentation contribution guidelines](https://github.com/OSCA-Kampala-Chapter/First-contribution-practice/blob/main/CONTRIBUTING.md).
 
-If you need more help, please contact us at [community@oscakampala.org](mailto:community@oscakampala.org) or join the `#documentation` channel on our [Discord](https://discord.gg/pRJgjH9SwR) server.
+If you need more help, please contact us at [oscakampala@gmail.com](mailto:oscakampala@gmail.com) or join the `#documentation` channel on our [Discord](https://discord.gg/pRJgjH9SwR) server.
 
 ## 🏁 How to Get Started
 
 To get started in the open source there's a multitude of tools you can use but first of all you will need to know about OSCA Kampala. Read our **Introduction** section:
 
-[![Gitter](https://badges.gitter.im/OSCA-Kampala-Chapter/TTS.svg)](https://gitter.im/OSCA-Kampala-Chapter/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![License](https://img.shields.io/badge/License-MIT%202.0-brightgreen.svg)](https://opensource.org/licenses/MIT-2.0)
-
 📰 [**Subscribe to OSCA-KLA Newsletter**](https://www.getrevue.co/profile/oscakampala)
-
-🎧 [Anchor Podcasts](https://anchor.fm/osca-kampala) and [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy82ODg4NjU1NC9wb2RjYXN0L3Jzcw==)
-
-📄 [Text-to-Speech paper collection](https://github.com/erogol/TTS-papers)
 
 <img src="https://static.scarf.sh/a.png?x-pxid=cf317fe7-2188-4721-bc01-124bb5d5dbb2" />
 
