@@ -11,6 +11,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { Icon } from '@iconify/react';
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -66,15 +67,9 @@ export default function Home() {
 
             </Grid>
           </Box>
-
-          <Box sx={{ flexGrow: 1 }}>
-            <Grid container spacing={2}>
-              <Grid xs={12}>
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
-              </Grid>
-            </Grid>
-          </Box>
-
+        </div>
+        
+        <div className="grid">
           <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
               <Grid xs={3}>
@@ -97,7 +92,7 @@ export default function Home() {
 
               <Grid xs={3}>              
                 <a href="https://discord.gg/pRJgjH9SwR">
-                <discordAppIcon fontSize="large"/>
+                <Icon icon="akar-icons:discord-fill" />
                 </a>
               </Grid>
             </Grid>
@@ -114,9 +109,11 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <p>The Open Source Community Africa (oscakampala@gmail.com)</p>
+        Email : oscakampala@gmail.com
         </a>
+          Powered by {' '}
+          <p> The Open Source Community Africa (<a href='https://oscafrica.org/'>oscafrica.org</a>) </p>
+        
       </footer>
 
       <style jsx>{`

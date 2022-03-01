@@ -30,8 +30,8 @@ Please use our dedicated channels for questions and discussion. Help is much mor
 | 👩‍💻 **Usage Questions**          | [Github Discussions]                  |
 | 🗯 **General Discussion**        | [Github Discussions] or [Gitter Room] |
 
-[github issue tracker]: https://github.com/OSCA-Kampala-Chapter/tts/issues
-[github discussions]: https://github.com/OSCA-Kampala-Chapter/TTS/discussions
+[github issue tracker]: https://github.com/oscakampala/oscakampala.github.io/issues
+[github discussions]: https://github.com/oscakampala/oscakampala.github.io/discussions
 [gitter room]: https://gitter.im/OSCA-Kampala-Chapter?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 
 ## 🔗 Links and Resources
@@ -39,8 +39,8 @@ Please use our dedicated channels for questions and discussion. Help is much mor
 | Type                 | Links                                                                                    |
 | -------------------- | ---------------------------------------------------------------------------------------- |
 | 💼 **Documentation** | [Documents](https://github.com/OSCA-Kampala-Chapter/First-contribution-practice)         |
-| ⚒️ **Built Tools**   | [Made in Uganda](https://github.com/OSCA-Kampala-Chapter/made-in-ugandadev)              |
-| 👩‍💻 **Contributing**  | [CONTRIBUTING.md](https://github.com/OSCA-Kampala-Chapter/TTS/blob/main/CONTRIBUTING.md) |
+| ⚒️ **Built Tools**   | [Made in Uganda](https://github.com/OSCA-Kampala-Chapter)              |
+| 👩‍💻 **Contributing**  | [CONTRIBUTING.md](https://github.com/oscakampala/oscakampala.github.io/blob/main/CONTRIBUTING.md) |
 
 ## ☎️ How to get in touch
 
