@@ -5,9 +5,9 @@ export default function Festival() {
     return (
             
             <Container>
-                <HTMLHeadingElement>
+                <h1>
                     THE OPEN SOURCE FESTIVAL 2022 KAMPALA EDITION
-                </HTMLHeadingElement>
+                </h1>
 
                 <h3>Date : 9th April 2022</h3>
                 <h4>Time : 10 AM to 5 PM</h4>
