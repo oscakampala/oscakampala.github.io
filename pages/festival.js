@@ -3,7 +3,7 @@ import * as React from 'react';
 
 export default function Festival() {
     return (
-            
+        <div className="container">
             <Container>
                 <h1>
                     THE OPEN SOURCE FESTIVAL 2022 KAMPALA EDITION
@@ -20,12 +20,24 @@ export default function Festival() {
                 to help build a healthy open source community.
                 </p>
 
-                <p>To contribute make a donation</p>
+                <p>You can contribute by making a donation</p>
 
                 <a href='https://opencollective.com/osca-kampala-chapter/donate'>
                 <Button>Donate</Button>
                 </a>
             </Container>
+
+            <style jsx>{`
+                .container {
+                min-height: 100vh;
+                padding: 0 0.5rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                }
+                `}</style>
+        </div>
 
     )
 }
