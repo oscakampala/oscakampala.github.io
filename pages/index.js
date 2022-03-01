@@ -38,9 +38,9 @@ export default function Home() {
         </p>
 
         <Button>
-          <a href='https://oscakampala.github.io/festival'>
-            View UpComing Open Source Festival
-          </a>
+          <Link href="/festival">
+            <a>View UpComing Open Source Festival</a>
+          </Link>
         </Button>
 
         <div className="grid">
