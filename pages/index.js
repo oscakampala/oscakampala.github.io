@@ -68,8 +68,8 @@ export default function Home() {
             </Grid>
           </Box>
         </div>
-        
-        <div className="grid">
+
+        <div className="grid2">
           <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
               <Grid xs={3}>
@@ -111,6 +111,7 @@ export default function Home() {
         >
         Email : oscakampala@gmail.com
         </a>
+          <br/>
           Powered by {' '}
           <p> The Open Source Community Africa (<a href='https://oscafrica.org/'>oscafrica.org</a>) </p>
         
@@ -196,6 +197,15 @@ export default function Home() {
         }
 
         .grid {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+
+          max-width: 800px;
+          margin-top: 3rem;
+        }
+        .grid2 {
           display: flex;
           align-items: center;
           justify-content: center;
