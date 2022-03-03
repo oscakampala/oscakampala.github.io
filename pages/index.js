@@ -41,6 +41,10 @@ export default function Home() {
             <a href='https://oscakampala.github.io/festival'>View UpComing Open Source Festival</a>
         </Button>
 
+        <Button>
+            <a href='https://bit.ly/oscafestkla'>R.S.V.P Open Source Festival Spot</a>
+        </Button>
+
         <div className="grid">
 
           <Box sx={{ flexGrow: 1 }}>

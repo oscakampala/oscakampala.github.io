@@ -20,7 +20,12 @@ export default function Festival() {
                 to help build a healthy open source community.
                 </p>
 
+                <a href='https://bit.ly/oscafestkla'>
+                <Button>RSVP</Button>
+                </a>
+
                 <p>You can contribute by making a donation</p>
+
 
                 <a href='https://opencollective.com/osca-kampala-chapter/donate'>
                 <Button>Donate</Button>
