@@ -22,10 +22,6 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-export default function Home() {
-  const myLoader = ({ src, width, quality }) => {
-    return `${src}?w=${width}&q=${quality || 75}`
-  }
 
   return (
     <div className="container">
@@ -33,13 +29,7 @@ export default function Home() {
         <title>OSCA Kampala Chapter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Image
-        loader={myLoader}
-        src="osca_logo.png"
-        alt="Picture of the author"
-        width={180}
-        height={180}
-      />
+      <img src='../public/osca_logo.png'/>
 
       <main>
       
