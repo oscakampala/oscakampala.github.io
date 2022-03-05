@@ -26,7 +26,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>OSCA Kampala Chapter</title>
-        <link rel="icon" href="/osca_fav.ico" />
+        <link rel="shortcut icon" href="/osca-logo.png" />
       </Head>
       
       <main>
@@ -39,7 +39,7 @@ export default function Home() {
           Join the  <code>future of open source</code> collaborators
         </p>
 
-        <img width={180} height={180} src="/osca_logo.png" alt="OSCA Logo" />
+        <img width={180} height={180} src="/osca-logo.png" alt="OSCA Logo" />
 
         <Button>
             <a href='https://oscakampala.github.io/festival'>View UpComing Open Source Festival</a>
