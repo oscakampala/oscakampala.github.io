@@ -30,7 +30,7 @@ export default function Home() {
         <title>OSCA Kampala Chapter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <img src="/osca_logo.png" alt="OSCA Logo" width="180" height="180"></img>
+      <img src="https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-bg.png" alt="OSCA Logo" width="180" height="180"></img>
 
       <main>
       
