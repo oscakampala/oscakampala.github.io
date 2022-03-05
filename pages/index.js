@@ -28,7 +28,7 @@ export default function Home() {
         <title>OSCA Kampala Chapter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Image src="/osca_logo.png" alt="logo" width="180" height="180" />
+      <image src="/osca_logo.png" alt="logo" width="180" height="180" />
 
       <main>
       
