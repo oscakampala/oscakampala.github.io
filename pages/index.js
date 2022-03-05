@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -13,7 +12,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Button } from '@mui/material';
-import osca_logo from '../public/osca_logo.png'
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
