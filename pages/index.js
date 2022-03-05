@@ -115,11 +115,6 @@ export default function Home() {
 
       </main>
 
-      <footer>
-          <p>The Open Source Community Africa <a href='https://oscafrica.org/'>oscafrica.org</a></p>
-        
-      </footer>
-
       <style jsx>{`
         .container {
           min-height: 100vh;
