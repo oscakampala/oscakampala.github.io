@@ -22,7 +22,8 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-
+export default function Home() {
+  
   return (
     <div className="container">
       <Head>
