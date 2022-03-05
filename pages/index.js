@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -27,11 +28,14 @@ export default function Home() {
         <title>OSCA Kampala Chapter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Image src="/osca logo.png" alt="logo" width="180" height="180" />
 
       <main>
-        <h1 className="title">
+      
+        <h6 className="title">
           Welcome to the <a href="https://oscakampala.github.io/">OSCA Kampala Chapter</a>
-        </h1>
+        </h6>
+
 
         <p className="description">
           Join the  <code>future of open source</code> collaborators
