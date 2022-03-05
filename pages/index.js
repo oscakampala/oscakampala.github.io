@@ -22,6 +22,10 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 export default function Home() {
+  const myLoader = ({ src, width, quality }) => {
+    return `/${src}?w=${width}&q=${quality || 75}`
+  }
+
   return (
     <div className="container">
       <Head>
@@ -29,6 +33,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <image src="/osca_logo.png" alt="logo" width="180" height="180" />
+      <Image
+        loader={myLoader}
+        src="osca_logo.png"
+        alt="Picture of the author"
+        width={180}
+        height={180}
+      />
 
       <main>
       
