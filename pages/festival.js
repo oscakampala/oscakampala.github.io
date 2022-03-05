@@ -30,6 +30,11 @@ export default function Festival() {
                 <a href='https://opencollective.com/osca-kampala-chapter/donate'>
                 <Button>Donate</Button>
                 </a>
+
+                <h6>Event Sponsors</h6>
+
+                <img width={70} height={70} src="/sponsors/TUNGA.png" alt="TUNGA Logo" />
+                
             </Container>
             
 
