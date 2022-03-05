@@ -28,18 +28,18 @@ export default function Home() {
         <title>OSCA Kampala Chapter</title>
         <link rel="icon" href="/osca_fav.ico" />
       </Head>
-      <img width={180} height={180} src="/osca_logo.png" alt="OSCA Logo" />
-
+      
       <main>
       
         <h6 className="title">
           Welcome to the <a href="https://oscakampala.github.io/">OSCA Kampala Chapter</a>
         </h6>
 
-
         <p className="description">
           Join the  <code>future of open source</code> collaborators
         </p>
+
+        <img width={180} height={180} src="/osca_logo.png" alt="OSCA Logo" />
 
         <Button>
             <a href='https://oscakampala.github.io/festival'>View UpComing Open Source Festival</a>
