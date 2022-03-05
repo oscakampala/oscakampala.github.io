@@ -9,8 +9,7 @@ export default function Events() {
                     OUR PREVIOUS EVENTS
                 </h1>
 
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dct4FUadGm4?start=503" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
                 
