@@ -30,13 +30,8 @@ export default function Home() {
         <title>OSCA Kampala Chapter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Image
-        alt="Next.js logo"
-        src="https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-bg.png"
-        width={1200}
-        height={400}
-      />
-      
+      <img src="https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-bg.png" />
+
       <main>
       
         <h6 className="title">
