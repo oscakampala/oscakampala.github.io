@@ -26,9 +26,9 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>OSCA Kampala Chapter</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/osca_fav.ico" />
       </Head>
-      <img width={70} height={70} src="https://sun1.beTCOYGm.jpg" alt="мое фото" />
+      <img width={180} height={180} src="/osca_logo.png" alt="OSCA Logo" />
 
       <main>
       
