@@ -23,7 +23,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Home() {
   const myLoader = ({ src, width, quality }) => {
-    return `/${src}?w=${width}&q=${quality || 75}`
+    return `${src}?w=${width}&q=${quality || 75}`
   }
 
   return (
