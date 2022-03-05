@@ -42,6 +42,10 @@ export default function Home() {
         <img width={180} height={180} src="/osca-logo.png" alt="OSCA Logo" />
 
         <Button>
+            <a href='https://oscakampala.github.io/events'>Past Events</a>
+        </Button>
+
+        <Button>
             <a href='https://oscakampala.github.io/festival'>View UpComing Open Source Festival</a>
         </Button>
 
