@@ -4,11 +4,13 @@ import * as React from 'react';
 export default function Festival() {
     return (
         <div className="container">
+            <Container>
+
             <Head>
                 <title>OSCA Kampala Festival</title>
                 <link rel="shortcut icon" href="/osca-logo.png" />
             </Head>
-            <Container>
+            
                 <h1>
                     THE OPEN SOURCE FESTIVAL 2022, KAMPALA EDITION
                 </h1>
