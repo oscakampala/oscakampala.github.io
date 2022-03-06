@@ -8,9 +8,8 @@ export default function Festival() {
 
             <Head>
                 <title>OSCA Kampala Festival</title>
-                <link rel="shortcut icon" href="/osca-logo.png" />
             </Head>
-            
+
                 <h1>
                     THE OPEN SOURCE FESTIVAL 2022, KAMPALA EDITION
                 </h1>

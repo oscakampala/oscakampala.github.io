@@ -7,9 +7,8 @@ export default function Events() {
             <Container>
             <Head>
                 <title>OSCA Kampala Events</title>
-                <link rel="shortcut icon" href="/osca-logo.png" />
             </Head>
-            
+
                 <h1>
                     OUR PREVIOUS EVENTS
                 </h1>
