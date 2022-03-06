@@ -1,14 +1,16 @@
 import { Button, Container } from '@mui/material';
 import * as React from 'react';
+import Head from 'next/head'
 
 export default function Events() {
     return (
         <div className="container">
-            <Container>
             <Head>
                 <title>OSCA Kampala Events</title>
+                <link rel="shortcut icon" href="/osca-logo.png" />
             </Head>
 
+            <Container>
                 <h1>
                     OUR PREVIOUS EVENTS
                 </h1>
