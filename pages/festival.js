@@ -1,6 +1,7 @@
 import { Button, Container } from '@mui/material';
-import * as React from 'react';
 import Head from 'next/head'
+import * as React from 'react';
+
 
 export default function Festival() {
     return (
