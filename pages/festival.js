@@ -6,10 +6,6 @@ import * as React from 'react';
 export default function Festival() {
     return (
         <div className="container">
-            <Head>
-                <title>OSCA Kampala Festival</title>
-                <link rel="shortcut icon" href="/osca-logo.png" />
-            </Head>
 
             <Container>
                 <h1>
