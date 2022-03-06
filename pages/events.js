@@ -4,6 +4,10 @@ import * as React from 'react';
 export default function Events() {
     return (
         <div className="container">
+            <Head>
+                <title>OSCA Kampala Events</title>
+                <link rel="shortcut icon" href="/osca-logo.png" />
+            </Head>
             <Container>
                 <h1>
                     OUR PREVIOUS EVENTS
