@@ -46,11 +46,11 @@ export default function Home() {
         </Button>
 
         <Button>
-            <a href='https://oscakampala.github.io/festival'>View UpComing Open Source Festival</a>
+            <a href='https://oscakampala.github.io/festival'>View UpComing Open Source Summit</a>
         </Button>
 
         <Button>
-            <a href='https://bit.ly/oscafestkla'>R.S.V.P Open Source Festival Spot</a>
+            <a href='https://bit.ly/oscafestkla'>R.S.V.P Open Source Summit Spot</a>
         </Button>
 
         <div className="grid">

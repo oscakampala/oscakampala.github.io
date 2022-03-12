@@ -9,7 +9,7 @@ export default function Festival() {
 
             <Container>
                 <h1>
-                    THE OPEN SOURCE FESTIVAL 2022, KAMPALA EDITION
+                    THE OPEN SOURCE SUMMIT KAMPALA EDITION
                 </h1>
 
                 <h3>
