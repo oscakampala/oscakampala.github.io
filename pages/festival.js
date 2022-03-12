@@ -45,6 +45,12 @@ export default function Festival() {
                     </Button>
                 </a>
 
+                <a href='https://forms.gle/E2JTgKwpF98rygxW8'>
+                    <Button>
+                        Branded Materials Purchase
+                    </Button>
+                </a>
+
                 <h6>
                     Event Sponsors
                 </h6>
