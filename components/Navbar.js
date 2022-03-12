@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav,NavbarText,Navbar,Collapse,NavbarBrand,NavbarToggler,NavItem,NavLink,UncontrolledDropdown,DropdownMenu,DropdownToggle,DropdownItem } from 'reactstrap';
+import { Nav,Navbar,NavbarBrand,NavItem,NavLink} from 'reactstrap';
 
 export const NavBarComponent = () => {
     return (
@@ -16,8 +16,6 @@ export const NavBarComponent = () => {
 
     </NavbarBrand>
 
-    {/* <NavbarToggler onClick={function noRefCheck(){}} /> */}
-    <Collapse navbar>
       <Nav className="me-auto" > </Nav>
       
       <Nav
@@ -56,7 +54,6 @@ export const NavBarComponent = () => {
 
      
       
-    </Collapse>
   </Navbar>
 </div>
   
