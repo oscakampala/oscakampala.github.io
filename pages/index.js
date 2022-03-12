@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import * as React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
@@ -12,6 +13,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Button } from '@mui/material';
+import { NavBarComponent } from '../components/Navbar';
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -28,7 +30,7 @@ export default function Home() {
         <title>OSCA Kampala Chapter</title>
         <link rel="shortcut icon" href="/osca-logo.png" />
       </Head>
-
+      <NavBarComponent />
       <main>
       
         <h6 className="title">
