@@ -32,8 +32,7 @@ export const HomeMainComponent = () => {
 
       <div style={{ backgroundImage:`url("/stage.jpg")`,
       backgroundRepeat:"no-repeat",
-      height:'655px',
-      width:'100%',
+      backgroundSize: 'cover',
 }} >
       <div className="container">
 
