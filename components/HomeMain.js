@@ -22,7 +22,26 @@ const Item = styled(Paper)(({ theme }) => ({
   }));
   
 
+const styles = {
+  header: {
+    backgroundImage: 'url("/stage.jpg")',
+    height: '100vh',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover'
+  },
+
+  content: {
+    height: '100%',
+    width: '100%',
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    color: 'white'
+  }
+}
+
+
 export const HomeMainComponent = () => {
+
     return (
       <div>
           
@@ -30,11 +49,10 @@ export const HomeMainComponent = () => {
       {/* <main> */}
       
 
-      <div style={{ backgroundImage:`url("/stage.jpg")`,
-      backgroundRepeat:"no-repeat",
-      backgroundSize: 'cover',
-}} >
-      <div className="container">
+      <div style={styles.header} >
+
+  <div style={styles.content} >
+      <div className="container"  >
 
      <h6 className="title" style={{color:'white'}} >
         <a href="https://oscakampala.github.io/" style={{textDecoration:'none'}} >
@@ -50,7 +68,7 @@ export const HomeMainComponent = () => {
       </p>
 
       <br/> <br/>
-        <Button color="light" >
+        <Button color="warning" >
             <a href='https://bit.ly/oscafestkla' style={{color:'black'}} >R.S.V.P Open Source Summit Spot</a>
         </Button>
 
@@ -276,6 +294,7 @@ export const HomeMainComponent = () => {
           box-sizing: border-box;
         }
       `}</style>
+    </div>
     </div>
     </div>
 
