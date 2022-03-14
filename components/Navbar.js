@@ -1,7 +1,17 @@
-import React from 'react';
-import { Nav,Navbar,NavbarBrand,NavItem,NavLink} from 'reactstrap';
+import {useState} from 'react';
+import { Nav,Navbar,NavbarBrand,NavItem,NavLink,NavbarToggler,Collapse} from 'reactstrap';
 
 export const NavBarComponent = () => {
+
+  const [collapsed,setCollapsed]=useState(false)
+
+    const toggleNavbar=()=>{
+     // if(collapsed) setCollapsed(true);
+
+      setCollapsed(true)
+
+        }
+        
     return (
       <div>
 
@@ -13,8 +23,9 @@ export const NavBarComponent = () => {
 
     </NavbarBrand>
 
-      {/* <Nav className="me-auto" > </Nav> */}
-      
+    <NavbarToggler  className="mr-2" onClick={toggleNavbar} />
+
+    <Collapse isOpen={collapsed} navbar>    
       <Nav
       className="me-auto"
         navbar
@@ -49,10 +60,11 @@ export const NavBarComponent = () => {
         </NavItem>
        
       </Nav>
-
+      </Collapse>  
      
       
   </Navbar>
+  
 </div>
   
       </div>
