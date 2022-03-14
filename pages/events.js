@@ -1,10 +1,13 @@
 import { Button, Container } from '@mui/material';
 import Head from 'next/head'
 import * as React from 'react';
+import {NavBarComponent} from '../components'
 
 
 export default function Events() {
     return (
+        <div>
+            <NavBarComponent/>
         <div className="container">
 
             <Container>
@@ -45,6 +48,6 @@ export default function Events() {
             `}</style>
 
         </div>
-
+        </div>
     )
 }

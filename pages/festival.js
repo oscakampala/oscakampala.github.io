@@ -1,10 +1,14 @@
 import { Button, Container } from '@mui/material';
 import Head from 'next/head'
 import * as React from 'react';
+import {NavBarComponent} from '../components'
 
 
 export default function Festival() {
     return (
+
+        <div>
+            <NavBarComponent/>
         <div className="container">
 
             <Container>
@@ -91,6 +95,7 @@ export default function Festival() {
                 }
             `}</style>
 
+        </div>
         </div>
 
     )
