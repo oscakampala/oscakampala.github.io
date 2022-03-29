@@ -37,7 +37,7 @@ export const NavBarComponent = () => {
         </NavItem>
        
         <NavItem>
-          <NavLink href="https://oscakampala.github.io/festival" className='text-light' >
+          <NavLink href="https://oscakampala.github.io/summit" className='text-light' >
             Summit 
           </NavLink>
         </NavItem>

@@ -4,7 +4,7 @@ import * as React from 'react';
 import {NavBarComponent} from '../components'
 
 
-export default function Festival() {
+export default function Summit() {
     return (
 
         <div>
