@@ -16,6 +16,11 @@ export default function Events() {
         <div className="container">
 
             <Container>
+
+                <br/>
+                <br/>
+                <br/>
+
                 <h1>
                     OUR PREVIOUS EVENTS
                 </h1>

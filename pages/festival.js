@@ -17,7 +17,12 @@ export default function Festival() {
         <div className="container">
 
             <Container>
-                <h1>
+
+                <br/>
+                <br/>
+                <br/>
+
+                <h1 >
                     THE OPEN SOURCE SUMMIT KAMPALA EDITION
                 </h1>
 
