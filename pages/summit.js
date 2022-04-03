@@ -4,15 +4,25 @@ import * as React from 'react';
 import {NavBarComponent} from '../components'
 
 
-export default function Festival() {
+export default function Summit() {
     return (
 
         <div>
+            <Head>
+                <title>OSCA Kampala Chapter</title>
+                <link rel="shortcut icon" href="/osca-logo.png" />
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" />
+            </Head>
             <NavBarComponent/>
         <div className="container">
 
             <Container>
-                <h1>
+
+                <br/>
+                <br/>
+                <br/>
+
+                <h1 >
                     THE OPEN SOURCE SUMMIT KAMPALA EDITION
                 </h1>
 
