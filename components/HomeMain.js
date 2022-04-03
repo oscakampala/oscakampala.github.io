@@ -24,7 +24,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const styles = {
   header: {
-    backgroundImage: 'url("/stage.jpg")',
+    //backgroundImage: 'url("/stage.jpg")',
     height: '100vh',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -34,8 +34,10 @@ const styles = {
   content: {
     height: '100%',
     width: '100%',
-    backgroundColor: 'rgba(0, 0, 0, 0.6)',
-    color: 'white'
+    // backgroundColor: 'rgba(0, 0, 0, 0.1)',
+   // backgroundColor: 'grey',
+
+    //color: 'white'
   }
 }
 
@@ -54,7 +56,7 @@ export const HomeMainComponent = () => {
   <div style={styles.content} >
       <div className="container"  >
 
-     <h6 className="title" style={{color:'white'}} >
+     <h6 className="title" style={{color:'black'}} >
         <a href="https://oscakampala.github.io/" style={{textDecoration:'none'}} >
          OSCA Kampala Chapter
          </a>
@@ -63,7 +65,7 @@ export const HomeMainComponent = () => {
 
       <br/> <br/>
 
-      <p className="description" style={{color:'white'}} >
+      <p className="description" style={{color:'black'}} >
         Join the  future of open source collaborators!
       </p>
 
