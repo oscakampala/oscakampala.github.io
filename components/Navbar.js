@@ -39,11 +39,11 @@ export const NavBarComponent = () => {
                   </NavLink>
                 </NavItem>
               
-                <NavItem>
+                {/* <NavItem>
                   <NavLink href="https://oscakampala.github.io/festival" className='text-light' >
                     Summit 
                   </NavLink>
-                </NavItem>
+                </NavItem> */}
                 <NavItem>
                   <NavLink href="https://oscakampala.github.io/events" className='text-light' >
                     Past events
