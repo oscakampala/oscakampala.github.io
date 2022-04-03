@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'reactstrap'
+import { Button,Row,Col } from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -47,10 +47,14 @@ export const HomeMainComponent = () => {
     return (
       <div>
           
+          <br/><br/>
            <div >
       {/* <main> */}
-      
 
+      
+      <Row>
+          <Col sm='6' >
+      
       <div style={styles.header} >
 
   <div style={styles.content} >
@@ -68,6 +72,7 @@ export const HomeMainComponent = () => {
       <p className="description" style={{color:'black'}} >
         Join the  future of open source collaborators!
       </p>
+
 
       <br/> <br/>
         <Button color="primary" >
@@ -138,11 +143,11 @@ export const HomeMainComponent = () => {
           </Box>
           
           
-        </div>
+        </div> 
 
       {/* </main> */}
 
-      <style jsx>{`
+       <style jsx>{`
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
@@ -296,9 +301,37 @@ export const HomeMainComponent = () => {
           box-sizing: border-box;
         }
       `}</style>
+
+  
+    
+    
+    </div>        
+
     </div>
-    </div>
-    </div>
+    </div> 
+
+    </Col>
+          <Col sm='6' >
+          <br/><br/>
+
+          <img style={{borderRadius:'8px'}} width={"90%"} height={"50%"} src="/osca summit banner.jpeg" alt="OSCA Logo" />
+          <br/><br/>
+         <Row  >
+         
+         <Col sm='4' >
+           
+          <img style={{borderRadius:'8px'}} width={"100%"} height={"80%"} src="/musoke speaker.jpeg" alt="OSCA Logo" />
+       </Col>
+       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <Col sm='4' >
+          <img style={{borderRadius:'8px'}} width={"100%"} height={"80%"} src="/malinga speaker.jpeg" alt="OSCA Logo" />
+       </Col>
+
+         </Row>
+          
+          </Col>
+        </Row>
 
 </div>
 
