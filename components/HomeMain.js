@@ -70,8 +70,8 @@ export const HomeMainComponent = () => {
       </p>
 
       <br/> <br/>
-        <Button color="warning" >
-            <a href='https://bit.ly/oscafestkla' style={{color:'black'}} >R.S.V.P Open Source Summit Spot</a>
+        <Button color="primary" >
+            <a href='https://bit.ly/oscafestkla' style={{color:'white'}} >R.S.V.P Open Source Summit Spot</a>
         </Button>
 
         <br/>
