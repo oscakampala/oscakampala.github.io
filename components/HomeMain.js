@@ -312,23 +312,22 @@ export const HomeMainComponent = () => {
 
     </Col>
           <Col sm='6' >
-          <br/><br/>
 
-          <img style={{borderRadius:'8px'}} width={"90%"} height={"50%"} src="/osca summit banner.jpeg" alt="OSCA Logo" />
+          <img style={{borderRadius:'8px',objectFit:'contain'}} width={"100%"} height={"550px"} src="/osca summit banner.jpeg" alt="OSCA Logo" />
           <br/><br/>
-         <Row  >
+         {/* <Row  >
          
          <Col sm='4' >
            
-          <img style={{borderRadius:'8px'}} width={"100%"} height={"80%"} src="/musoke speaker.jpeg" alt="OSCA Logo" />
+          <img style={{borderRadius:'8px',objectFit:'contain'}} width={"100%"} height={"250px"} src="/musoke speaker.jpeg" alt="OSCA Logo" />
        </Col>
        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          <Col sm='4' >
-          <img style={{borderRadius:'8px'}} width={"100%"} height={"80%"} src="/malinga speaker.jpeg" alt="OSCA Logo" />
+          <img style={{borderRadius:'8px',objectFit:'contain'}} width={"100%"} height={"250px"} src="/malinga speaker.jpeg" alt="OSCA Logo" />
        </Col>
 
-         </Row>
+         </Row> */}
           
           </Col>
         </Row>
