@@ -51,10 +51,7 @@ export const HomeMainComponent = () => {
            <div >
       {/* <main> */}
 
-      
-      <Row>
-          <Col sm='6' >
-      
+           
       <div style={styles.header} >
 
   <div style={styles.content} >
@@ -309,28 +306,7 @@ export const HomeMainComponent = () => {
 
     </div>
     </div> 
-
-    </Col>
-          <Col sm='6' >
-
-          <img style={{borderRadius:'8px',objectFit:'contain'}} width={"100%"} height={"550px"} src="/osca summit banner.jpeg" alt="OSCA Logo" />
-          <br/><br/>
-         {/* <Row  >
-         
-         <Col sm='4' >
-           
-          <img style={{borderRadius:'8px',objectFit:'contain'}} width={"100%"} height={"250px"} src="/musoke speaker.jpeg" alt="OSCA Logo" />
-       </Col>
-       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         <Col sm='4' >
-          <img style={{borderRadius:'8px',objectFit:'contain'}} width={"100%"} height={"250px"} src="/malinga speaker.jpeg" alt="OSCA Logo" />
-       </Col>
-
-         </Row> */}
-          
-          </Col>
-        </Row>
+    
 
 </div>
 
