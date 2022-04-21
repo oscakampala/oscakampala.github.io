@@ -76,7 +76,7 @@ export const HomeMainComponent = () => {
 
       <br/> <br/>
         <Button color="primary" >
-            <a href='https://bit.ly/oscafestkla' style={{color:'white'}} >R.S.V.P Open Source Summit Spot</a>
+            <a href='https://github.com/OSCA-Kampala-Chapter/support/issues/new?assignees=&labels=invite+me+to+the+organisation&template=invitation.yml&title=Please+invite+me+to+the+GitHub+Community+Organization' style={{color:'white'}} >Join our github Organisation</a>
         </Button>
 
         <br/>
