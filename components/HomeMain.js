@@ -67,7 +67,7 @@ export const HomeMainComponent = () => {
       <br/> <br/>
 
       <p className="description" style={{color:'black'}} >
-        Join the  future of open source collaborators!
+        We are doing something different, we are building a community. We do this right, we can change everything!
       </p>
 
 
