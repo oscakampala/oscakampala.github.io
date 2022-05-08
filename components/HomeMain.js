@@ -67,7 +67,13 @@ export const HomeMainComponent = () => {
       <br/> <br/>
 
       <p className="description" style={{color:'black'}} >
-        We are doing something different, we are building a community. We do this right, we can change everything!
+        We are doing something different.
+      </p>
+      <p className="description" style={{color:'black'}} >
+        We are building a community.
+      </p>
+      <p className="description" style={{color:'black'}} >
+        We do this right, we can change everything!
       </p>
 
 
