@@ -34,18 +34,18 @@ export const NavBarComponent = () => {
                 navbar
               >
                 <NavItem>
-                  <NavLink href="https://oscakampala.github.io/" className='text-light' >
+                  <NavLink href="https://oscakampala.org/" className='text-light' >
                     About
                   </NavLink>
                 </NavItem>
               
                 <NavItem>
-                  <NavLink href="https://oscakampala.github.io/summit" className='text-light' >
+                  <NavLink href="https://oscakampala.org/summit" className='text-light' >
                     Summit 
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://oscakampala.github.io/events" className='text-light' >
+                  <NavLink href="https://oscakampala.org/events" className='text-light' >
                     Past events
                   </NavLink>
                 </NavItem>
