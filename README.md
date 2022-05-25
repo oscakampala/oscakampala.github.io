@@ -49,3 +49,33 @@ If you need more help, please join our whatsapp group [Whatsapp group](https://c
 ## ✨ This spells the end
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
+
+## Creating a docker container image
+
+In order to create a docker container image, you can use the steps below
+
+Clone this repository and navigate into its directory
+
+Ensure you have minikube installed
+
+Run the commands below
+
+`minikube start`
+
+`kubectl get nodes`
+
+`docker image build -t <dockerhub_username>/small-web-img:0.1 . `
+
+You can then be able to upload your image to the hub using the commands below
+
+`docker login`
+
+`docker image push <dockerhub_username>/small-web-img:0.1`
+
+Incase you wish to run a the uploaded container image you can do so like below
+
+`docker run --rm --name osca_website -p8080:3000 <dockerhub_username>/small-web-img:0.1`
+
+Then you are able to check it out on 
+
+`http://localhost:8080/`
