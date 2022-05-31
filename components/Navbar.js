@@ -57,8 +57,8 @@ export const NavBarComponent = () => {
                 </NavItem>
 
                 <NavItem>
-                  <NavLink href="" className='text-light' >
-                    Contact Us
+                  <NavLink href="https://blog.oscakampala.org/" className='text-light' >
+                    Blog
                   </NavLink>
                 </NavItem>
               
