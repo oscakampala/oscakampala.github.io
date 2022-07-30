@@ -1,0 +1,52 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Proxima Nova, system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-[#ecf0f3] 
+         text-[#5A75AB];
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold
+    text-[#5A75AB];
+  }
+
+  h1 {
+    @apply text-3xl
+        sm:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl
+        sm:text-4xl;
+  }
+
+  li {
+    @apply cursor-pointer;
+  }
+
+  button {
+    @apply shadow-xl
+        shadow-gray-400
+        rounded-xl
+        uppercase
+        /* bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white; */
+  }
+
+  .bgImg{
+    @apply flex relative w-[60%] min-h-screen rounded-lg
+  }
+}

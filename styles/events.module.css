@@ -1,0 +1,32 @@
+
+.heading {
+    font-size: 150px;
+}
+
+.section{
+    margin-top: 8rem;
+    /* height: 50%; */
+    padding: 5rem;
+    /* background-color: blue; */
+    text-align: center;
+    background-image: url("../public/community.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.wordFormat{
+    color: #ffffff;
+}
+
+.M{
+    display: inline;
+    color: #C6C600;
+}
+
+.summit{
+    display: flex;
+    flex-direction: column;
+}
