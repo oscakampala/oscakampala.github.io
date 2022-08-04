@@ -20,15 +20,14 @@ import {
 
 function Footer() {
   return (
-    <footer className="flex gap-10 justify-around bg-slate-300 mt-20">
+    <footer className="flex-col  md:flex md:gap-10 md:justify-around bg-slate-300 mt-20 w-full">
       <div className="footerOne">
         <LogoSm />
       </div>
-      <div>
+      <div className="text-center">
         <h4>aim</h4>
         <p>To develop the Future</p>
       </div>
-
 
       <div className="social">
         <div className="pt-4 flex w-[30%] justify-around mx-auto">
