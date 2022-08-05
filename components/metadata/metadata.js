@@ -15,9 +15,9 @@ export default [
 
   {
     id: 2,
-    name: "Syfa",
-    leadImg: "syfa.png",
-    lang: "Javascript",
+    name: "Ever",
+    leadImg: "she.jpg",
+    lang: "Document writer",
     links: [
       "github.com/SyfaCollins",
       "https://www.linkedin.com/in/syfa-collins-aa15b7191",
@@ -27,9 +27,9 @@ export default [
 
   {
     id: 3,
-    name: "Syfa",
-    leadImg: "syfa.png",
-    lang: "Javascript",
+    name: "Mohamma",
+    leadImg: "mohamma.jpg",
+    lang: "Python Lead",
     links: [
       "github.com/SyfaCollins",
       "https://www.linkedin.com/in/syfa-collins-aa15b7191",
@@ -39,9 +39,9 @@ export default [
 
   {
     id: 4,
-    name: "Syfa",
-    leadImg: "syfa.png",
-    lang: "Javascript",
+    name: "Sarah",
+    leadImg: "sarah.jpg",
+    lang: "Javascript Lead",
     links: [
       "github.com/SyfaCollins",
       "https://www.linkedin.com/in/syfa-collins-aa15b7191",

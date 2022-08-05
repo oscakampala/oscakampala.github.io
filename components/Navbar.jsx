@@ -93,7 +93,7 @@ function Navbar() {
           </div>
 
           <ul className="uppercase">
-            <Link href="about">
+            <Link href="about" >
               <li className="py-4 text-sm ">About</li>
             </Link>
             <Link href="projects">
@@ -106,7 +106,7 @@ function Navbar() {
               <li className="py-4 text-sm ">Experience</li>
             </Link>
             <Link href="joinComm">
-              <button className="py-4 text-sm ">Join Community</button>
+              <button className="py-4 text-sm shadow shadow-blue-500/40 hover:shadow-indigo-500/40">Join Community</button>
             </Link>
           </ul>
           <div className="pt-10 md:pt-10">
