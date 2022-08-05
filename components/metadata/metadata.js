@@ -1,10 +1,11 @@
 /** @format */
 
-data: [
+export default [
   {
+    id: 1,
     name: "Syfa",
-    leadImg: "/images/leads/syfa.png",
-    lang:"Javascript",
+    leadImg: "syfa.png",
+    lang: "Javascript",
     links: [
       "github.com/SyfaCollins",
       "https://www.linkedin.com/in/syfa-collins-aa15b7191",
@@ -13,9 +14,10 @@ data: [
   },
 
   {
+    id: 2,
     name: "Syfa",
-    leadImg: "/images/leads/syfa.png",
-    lang:"Javascript",
+    leadImg: "syfa.png",
+    lang: "Javascript",
     links: [
       "github.com/SyfaCollins",
       "https://www.linkedin.com/in/syfa-collins-aa15b7191",
@@ -24,9 +26,10 @@ data: [
   },
 
   {
+    id: 3,
     name: "Syfa",
-    leadImg: "/images/leads/syfa.png",
-    lang:"Javascript",
+    leadImg: "syfa.png",
+    lang: "Javascript",
     links: [
       "github.com/SyfaCollins",
       "https://www.linkedin.com/in/syfa-collins-aa15b7191",
@@ -35,9 +38,10 @@ data: [
   },
 
   {
+    id: 4,
     name: "Syfa",
-    leadImg: "/images/leads/syfa.png",
-    lang:"Javascript",
+    leadImg: "syfa.png",
+    lang: "Javascript",
     links: [
       "github.com/SyfaCollins",
       "https://www.linkedin.com/in/syfa-collins-aa15b7191",
