@@ -32,9 +32,11 @@ function Navbar() {
 
   return (
     <div className="fixed w-full h-20 shadow-xl z-10 bg-[#e5e7eb] mt-0">
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full container mx-auto">
 
         <LogoLg />
+
+
 
         <ul className="hidden md:flex items-center">
           <Link href="about">
@@ -52,7 +54,7 @@ function Navbar() {
             </li>
           </Link>{" "}
           <Link href="joinComm">
-            <button className="ml-10 text-sm uppercase hover:border-b text-white p-[.5rem] bg-orange-400">
+            <button className="ml-10 text-[10px] uppercase shadow-none hover:shadow-xl text-white p-2 bg-orange-400 font-bold rounded-full">
               Join Community
             </button>
           </Link>
@@ -71,7 +73,7 @@ function Navbar() {
           className={
             nav
               ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-slate-50 p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 w-[75%] p-10 ease-in duration-500"
+              : "fixed left-[-100%] top-0 w-[75%] p-10 ease-in duration-500 "
           }>
           <div className="flex w-full items-center justify-between">
             <Image
@@ -106,7 +108,7 @@ function Navbar() {
               <li className="py-4 text-sm ">Experience</li>
             </Link>
             <Link href="joinComm">
-              <button className="py-4 text-sm shadow shadow-blue-500/40 hover:shadow-indigo-500/40">Join Community</button>
+              <button className="py-4 text-sm shadow text-white p-[.6rem] bg-orange-400 font-bold">Join Community</button>
             </Link>
           </ul>
           <div className="pt-10 md:pt-10">
@@ -115,7 +117,7 @@ function Navbar() {
             </p>
           </div>
 
-          <div className="pt-4 flex w-[50%] justify-between ">
+          <div className="pt-4 flex justify-between ">
             <div className="shadow-lg shadow-gray-400 p-2 rounded-full cursor-pointer text-orange-600">
               <FaLinkedinIn size={20} />
             </div>

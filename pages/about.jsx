@@ -18,7 +18,7 @@ function about() {
 
   return (
     <section className="flex-col md:flex-col">
-      <div className=" md:gap-5 md:flex h-full">
+      <div className="flex justify-center h-full w-full">
         <div className=" shrink h-screen  md:h-screen">
           <Image
             src="/oscahomepage.jpg"
@@ -27,15 +27,16 @@ function about() {
             // className=" h-screen w-[auto] object-cover"
           />
         </div>
-        <div className="container md:mx-auto  flex-col justify-evenly text-white  text-sm absolute md:w-[50%] p-5 md:mt-[50px]  text-center top-[200px]  ">
-          <h1 className=" text-white text-[30px] md:text-[60px] ">
+        <div
+          className="container md:mx-auto  flex-col justify-evenly text-white  text-sm absolute w-full p-5  text-center top-[300px] bg- backdrop-blur-sm bg-black/30 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg">
+          <h1 className=" text-white text-[30px] md:text-[60px]  ">
             Open Source Community <br />
             Africa{"{"}
             <span className="kampala text-orange-400 ">Kampala</span>
             {"}"}
           </h1>
 
-          <p className="mt-10 ">
+          <p className="mt-10  ">
             Open Source Community Africa (OSCA) is a community for open source
             lovers, enthusiasts, advocates and experts within and across Africa,
             with the sole aim of increasing th e rate of credible open source
