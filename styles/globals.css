@@ -31,7 +31,8 @@
 
   h2 {
     @apply text-3xl
-        sm:text-4xl;
+        sm:text-4xl
+        p-5;
   }
 
   li {
@@ -50,3 +51,4 @@
     @apply flex relative w-[60%] min-h-screen rounded-lg
   }
 }
+

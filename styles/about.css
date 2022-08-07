@@ -6,3 +6,15 @@
   /* object-position: right; */
 
 }
+
+
+.logoMd{
+  height: 50px;
+  width: 50px;
+}
+
+.linkIcons{
+  cursor:pointer;
+  padding: 0 .5rem
+
+}
