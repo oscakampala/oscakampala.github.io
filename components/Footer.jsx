@@ -24,13 +24,14 @@ import {
 function Footer() {
   return (
 
-    <footer className="flex-col md:flex  justify-between px-5 pb-5 gap-5  md:flex-row md:gap-10 md:justify-between bg-slate-300 mt-20 w-full  container mx-auto items-center rounded-tl-lg rounded-bl-lg"  >
-      <div className="footerOne">
+    <footer className="flex-col md:flex  md:justify-between items-center md:p-10   md:flex-row md:gap-10 bg-slate-300 mt-20 container mx-auto  rounded-tl-lg rounded-tr-lg"  >
+      <div className="footerOne mx-5 md:mx-10 items-center flex-col ">
         <LogoSm />
+        <p>We are a first growing Open Source Community based in Uganda, but an extension of Open Source Community Africa</p>
       </div>
-      <div className="text-center">
+      <div className=" md:mx-20">
         <h4>aim</h4>
-        <p className="text-xs">As a community, we intend to help integrate the art of open source contribution into African developer ecosystem whilst strongly advocating for the adoption of free and open source technologies.</p>
+        <p>As a community, we intend to help integrate the art of open source contribution into African developer ecosystem whilst strongly advocating for the adoption of free and open source technologies.</p>
       </div>
 
       <div className="social">
