@@ -36,7 +36,6 @@ function Footer() {
 
       <div className="socia mx-10 py-5">
         <div className=" flex md:flex  justify-between gap-5 mt-5 md:mt-0" >
-          <Link href="">
           <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-orange-600">
             <FaGoogle size={20} />
           </div>
