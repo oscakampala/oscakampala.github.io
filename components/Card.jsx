@@ -6,7 +6,7 @@ import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 
 function Card({ url, leadImg, leadName, leadLang }) {
   const handleClick = () => {
-    console.log("clicked");
+    console.log(url);
   };
 
   return (
@@ -26,9 +26,16 @@ function Card({ url, leadImg, leadName, leadLang }) {
         </div>
 
         <div className="flex gap-2">
-          <FaLinkedin />
-          <FaTwitter />
-          <FaGithub />
+          <div className="cursor-pointer">
+            {" "}
+            <FaLinkedin size={20}/>
+          </div>
+          <div className="cursor-pointer">
+            <FaTwitter size={20}/>
+          </div>
+          <div className="cursor-pointer">
+            <FaGithub size={20}/>
+          </div>
         </div>
       </div>
     </div>

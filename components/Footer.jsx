@@ -35,6 +35,7 @@ function Footer() {
 
       <div className="social">
         <div className=" flex md:flex  justify-between gap-5 mt-2 md:mt-0" >
+          <Link href="">
           <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-orange-600">
             <FaGoogle size={20} />
           </div>
@@ -42,7 +43,7 @@ function Footer() {
           <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-orange-600">
             <FaFacebookF size={20} />
           </div>{" "}
-          <Link href="https://twitter.com/oscakampala">
+          <Link href="https://twitter.com/oscakampala" target="blank">
           <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-orange-600">
             <FaTwitter size={20} />
           </div>
