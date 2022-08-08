@@ -24,24 +24,26 @@ import {
 function Footer() {
   return (
 
-    <footer className="flex-col md:flex  justify-between px-5 pb-5 gap-5  md:flex-row md:gap-10 md:justify-between bg-slate-300 mt-20 w-full  container mx-auto items-center rounded-tl-lg rounded-bl-lg"  >
-      <div className="footerOne">
+    <footer className="flex-col md:flex  md:justify-between items-center md:items-start md:p-10 md:flex-row md:gap-10 bg-slate-300 mt-20 container mx-auto  rounded-tl-lg rounded-tr-lg h"  >
+      <div className="footerOne pt-5 mx-5 md:mx-10 md:pt-0 text-center md:text-start flex-col  ">
         <LogoSm />
+        <p>We are a first growing Open Source Community based in Uganda, but an extension of Open Source Community Africa</p>
       </div>
-      <div className="text-center">
+      <div className=" text-center md:text-start py-10 px-10 md:py-0">
         <h4>aim</h4>
-        <p className="text-xs">As a community, we intend to help integrate the art of open source contribution into African developer ecosystem whilst strongly advocating for the adoption of free and open source technologies.</p>
+        <p>As a community, we intend to help integrate the art of open source contribution into African developer ecosystem whilst strongly advocating for the adoption of free and open source technologies.</p>
       </div>
 
-      <div className="social">
-        <div className=" flex md:flex  justify-between gap-5 mt-2 md:mt-0" >
+      <div className="socia mx-10 py-5">
+        <div className=" flex md:flex  justify-between gap-5 mt-5 md:mt-0" >
+          <Link href="">
           <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-orange-600">
             <FaGoogle size={20} />
           </div>
           <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-orange-600">
             <FaFacebookF size={20} />
           </div>{" "}
-          <Link href="https://twitter.com/oscakampala">
+          <Link href="https://twitter.com/oscakampala" target="blank">
           <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-orange-600">
             <FaTwitter size={20} />
           </div>
