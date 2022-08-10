@@ -13,7 +13,7 @@ function events() {
           </h1>
         </div>
       </section>
-      <section className=" flex-col container mx-auto mt-20">
+      <section className=" flex-col container mx-auto mt-20 p-10 md:p-20">
         <h1>THE OPEN SOURCE SUMMIT KAMPALA EDITION</h1>
         <p>Summit events are carried out once yearly. Started right in 2022.</p>
 
@@ -22,24 +22,33 @@ function events() {
           <p>Time : 10 AM to 5 PM</p>
         </div>
 
-        <div className="imgGrid">
+        <div className="grid grid-cols-2 gap-4">
+          <div className="col-span-2 bg-cover">
           <img
-            src="../public/community.png"
+            src="./images/community.png"
             alt="img"
-            height="50"
-            width="100"
+            // height="auto"
+            // width="auto"
+            className="rounded-xl"
+            
+          />
+          </div>
+        
+          <img
+            src="./images/musoke speaker.jpeg"
+            alt="img"
+            height="git"
+            width="auto"
+            className="rounded-xl"
+
           />
           <img
-            src="../public/community.png"
+            src="./images/malinga speaker.jpeg"
             alt="img"
-            height="50"
-            width="100"
-          />
-          <img
-            src="../public/community.png"
-            alt="img"
-            height="50"
-            width="100"
+            height="auto"
+            width="auto"
+            className="rounded-xl"
+
           />
         </div>
 
