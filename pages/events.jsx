@@ -4,17 +4,16 @@ import styles from "../styles/events.module.css";
 
 function events() {
   return (
-    <section className="bg-slate-600 ">
-      <section className="
-      pt-60">
-        <div>
-          <h1>
+    <section className="flex-col min-h-screen ">
+      <section className="flex items-center bg-[url('../public/images/community.png')]  bg-no-repeat bg-cover  min-h-screen min-w-screen">
+        <div className="container mx-auto">
+          <h1 className="text-center sm:text-[100px] md:text-[200px]">
             SUM<div className={styles.M}>M</div>
-            <br /> <div className={styles.wordFormat}>IT</div>
+            <div className={styles.wordFormat}>IT</div>
           </h1>
         </div>
       </section>
-      <section className="summit">
+      <section className=" flex-col container mx-auto mt-20">
         <h1>THE OPEN SOURCE SUMMIT KAMPALA EDITION</h1>
         <p>Summit events are carried out once yearly. Started right in 2022.</p>
 
