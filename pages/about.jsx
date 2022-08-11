@@ -47,12 +47,7 @@ function about() {
 
       <div className="container mx-auto text-center mt-[10rem] h-full">
         <h2>Why OSCA?</h2>
-        <video autoPlay className="container mx-auto w-[750px]" controls>
-          <source
-            src="/Open Source Summit Kampala 2022 Highlights.mp4#t=1"
-            type="video/mp4"
-          />
-        </video>
+        <iframe className="container mx-auto w-[560px]" width="560" height="315" src="https://www.youtube.com/embed/oylCYRfk0NQ" title="YouTube video player" frameborder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div className="text-center mt-20">
         <h3>Core Value</h3>
