@@ -31,7 +31,7 @@ function Navbar() {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-10 bg-[#e5e7eb] mt-0">
+    <div className="fixed w-full h-20 shadow-xl z-10 bg-[#e5e7eb] mt-0 md:px-20">
       <div className="flex justify-between items-center w-full h-full container mx-auto">
 
         <LogoLg />

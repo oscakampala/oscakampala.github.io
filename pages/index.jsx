@@ -1,7 +1,7 @@
 
 import Head from "next/head";
-import About from "./about";
-import Navbar from "../components/Navbar";
+// import About from "./about";
+// import Navbar from "../components/Navbar";
 
 
 export default function Home() {
@@ -14,9 +14,6 @@ export default function Home() {
             {/* <link rel="stylesheet" href="../styles/global.css" /> */}
         </Head>
         
-        <Navbar />
-        <About />
-
         </div>
      );
 }

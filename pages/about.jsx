@@ -4,6 +4,7 @@ import react from "react";
 import Image from "next/image";
 import Card from "../components/Card";
 import cardData from "../components/metadata/metadata.js";
+import bgImg from "../public/images/oscahomepage.jpg"
 
 function about() {
   const cardElement = cardData.map((data) => {
@@ -21,7 +22,7 @@ function about() {
       <div className="flex justify-center h-full w-full">
         <div className=" shrink h-screen  md:h-screen">
           <Image
-            src="/oscahomepage.jpg"
+            src={bgImg}
             layout="fill"
             objectFit="cover"
             // className=" h-screen w-[auto] object-cover"
