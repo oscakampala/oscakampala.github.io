@@ -13,6 +13,9 @@ function about() {
         leadImg={`/images/leads/${data.leadImg}`}
         leadName={data.name}
         leadLang={data.lang}
+        leadLinkedin={data.links[0]}
+        leadTwitter={data.links[1]}
+        leadGithub={data.links[2]}
       />
     );
   });
