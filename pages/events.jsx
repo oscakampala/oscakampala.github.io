@@ -2,10 +2,11 @@
 
 import styles from "../styles/events.module.css";
 
+
 function events() {
   return (
     <section className="flex-col min-h-screen ">
-      <section className="flex items-center bg-[url('../public/images/community.png')]  bg-no-repeat bg-cover  min-h-screen min-w-screen">
+      <section className="flex items-center bg-[url('../public/images/community.jpg')]  bg-no-repeat bg-cover contrast-150  min-h-screen min-w-screen ">
         <div className="container mx-auto">
           <h1 className="text-center sm:text-[100px] md:text-[200px]">
             SUM<div className={styles.M}>M</div>
@@ -22,13 +23,13 @@ function events() {
           <p>Time : 10 AM to 5 PM</p>
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-rows-2 gap-4 md:px-60">
           <div className="col-span-2 bg-cover">
           <img
-            src="./images/community.png"
+            src="./images/summitposter.jpg"
             alt="img"
-            // height="auto"
-            // width="auto"
+            height="auto"
+            width="auto"
             className="rounded-xl"
             
           />
@@ -37,7 +38,7 @@ function events() {
           <img
             src="./images/musoke speaker.jpeg"
             alt="img"
-            height="git"
+            height="auto"
             width="auto"
             className="rounded-xl"
 

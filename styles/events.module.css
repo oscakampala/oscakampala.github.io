@@ -1,30 +1,26 @@
+/** @format */
 
-
-
-.section{
-    margin-top: 8rem;
-    /* height: 50%; */
-    padding: 5rem;
-    /* background-color: blue; */
-    text-align: center;
-    background-image: url("../public/images/community.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.section {
+  margin-top: 8rem;
+  /* height: 50%; */
+  padding: 5rem;
+  /* background-color: blue; */
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
-.wordFormat{
-    color: #ffffff;
+.wordFormat {
+  color: #ffffff;
 }
 
-.M{
-    display: inline;
-    color: #C6C600;
+.M {
+  display: inline;
+  color: #c6c600;
 }
 
-.summit{
-    display: flex;
-    flex-direction: column;
+.summit {
+  display: flex;
+  flex-direction: column;
 }
