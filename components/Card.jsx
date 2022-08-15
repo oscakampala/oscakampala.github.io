@@ -4,7 +4,7 @@ import { Link } from "react-feather";
 import Image from "next/image";
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 
-function Card({ url, leadImg, leadName, leadLang }) {
+function Card({ url, leadImg, leadName, leadLang, leadLinkedin, leadTwitter, leadGithub}) {
   const handleClick = () => {
     console.log(url);
   };
@@ -27,14 +27,20 @@ function Card({ url, leadImg, leadName, leadLang }) {
 
         <div className="flex gap-2">
           <div className="cursor-pointer">
-            {" "}
+						{" "}
+						<a target="_blank" href={leadLinkedin}>
             <FaLinkedin size={20}/>
+						</a>
           </div>
           <div className="cursor-pointer">
+						<a target="_blank" href={leadTwitter}>
             <FaTwitter size={20}/>
+						</a>
           </div>
           <div className="cursor-pointer">
+						<a target="_blank" href={leadGithub}>
             <FaGithub size={20}/>
+						</a>
           </div>
         </div>
       </div>
