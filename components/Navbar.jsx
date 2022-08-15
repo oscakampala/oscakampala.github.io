@@ -53,8 +53,8 @@ function Navbar() {
               Experience
             </li>
           </Link>{" "}
-          <Link href="joinComm">
-            <button className="ml-10 text-[10px] uppercase shadow-none hover:shadow-xl text-white p-2 bg-orange-400 font-bold rounded-full">
+          <Link href="https://t.me/oscakampala">
+            <button className="ml-10 text-[10px] uppercase shadow-none hover:shadow-xl text-white p-3 bg-orange-400 font-bold rounded-full">
               Join Community
             </button>
           </Link>
