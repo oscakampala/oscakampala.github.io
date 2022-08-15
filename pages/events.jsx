@@ -76,20 +76,20 @@ function events() {
         </div>
       </div>
       <section className="flex justify-between items-center md:px-20">
-        <h2 className="text-[60px,#EAD308]">DONATE</h2>
-        <div className=" ">
-          <p>You can also contribute by donating</p>
-          <p>Purchasing our Branded material</p>
-          <div >
-            <Image
-              src="/images/products/shirt.png"
-              height={450}
-              width={450}
-            
-            />
+        <h2 className="text-[60px] text-[#EAD308]">DONATE</h2>
+        <div className="flex-col space-y-5 items-stretch">
+          <div>
+            <p>You can also contribute by donating</p>
+            <p>Purchasing our Branded material</p>
           </div>
 
-          <button className="">VIEW PRODUCTS</button>
+          <div>
+            <img src="/images/products/shirt.png" height="auto" width="350px" />
+          </div>
+
+          <button className="rounded-sm bg-[#5A75AB] text-white p-4 align-middle">
+            VIEW PRODUCTS
+          </button>
         </div>
       </section>
     </section>
