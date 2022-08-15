@@ -1,10 +1,6 @@
 /** @format */
 
 .section {
-  margin-top: 8rem;
-  /* height: 50%; */
-  padding: 5rem;
-  /* background-color: blue; */
   text-align: center;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,7 +16,3 @@
   color: #c6c600;
 }
 
-.summit {
-  display: flex;
-  flex-direction: column;
-}
