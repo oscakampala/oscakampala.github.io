@@ -1,46 +1,48 @@
 /** @format */
 
 import styles from "../styles/events.module.css";
+import Image from "next/image";
 
 function events() {
   return (
-    <section className="flex-col min-h-screen ">
-      <section className="flex items-center bg-[url('../public/images/community.png')]  bg-no-repeat bg-cover  min-h-screen min-w-screen">
+    <section className="flex-col min-h-screen gap-20">
+      <div className="flex items-center bg-[url('../public/images/community.jpg')]  bg-no-repeat bg-cover contrast-150  min-h-screen min-w-screen ">
         <div className="container mx-auto">
           <h1 className="text-center sm:text-[100px] md:text-[200px]">
             SUM<div className={styles.M}>M</div>
             <div className={styles.wordFormat}>IT</div>
           </h1>
         </div>
-      </section>
-      <section className=" flex-col container mx-auto mt-20 p-10 md:p-20">
-        <h1>THE OPEN SOURCE SUMMIT KAMPALA EDITION</h1>
-        <p>Summit events are carried out once yearly. Started right in 2022.</p>
+      </div>
+      <div className=" flex-col container mx-auto text-center mt-20 p-10 md:p-20 space-y-10 gap-20">
+        <h1 className="text-[30px]">THE OPEN SOURCE SUMMIT KAMPALA EDITION</h1>
+        <p className="tracking-widest">
+          Summit events are carried out once yearly. Started right in 2022.
+        </p>
 
-        <div className="dateBanner">
-          <p>Date : 9th April 2022</p>
-          <p>Time : 10 AM to 5 PM</p>
+        <div className="tracking-widest">
+          <p className="bg-[#5A75AB] text-white container mx-auto w-60 p-4 rounded-sm">
+            Date : 9th April 2022 <br /> Time : 10 AM to 5 PM
+          </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-rows-2 gap-4 md:px-60">
           <div className="col-span-2 bg-cover">
-          <img
-            src="./images/community.png"
-            alt="img"
-            // height="auto"
-            // width="auto"
-            className="rounded-xl"
-            
-          />
+            <img
+              src="./images/summitposter.jpg"
+              alt="img"
+              height="auto"
+              width="auto"
+              className="rounded-xl"
+            />
           </div>
-        
+
           <img
             src="./images/musoke speaker.jpeg"
             alt="img"
-            height="git"
+            height="auto"
             width="auto"
             className="rounded-xl"
-
           />
           <img
             src="./images/malinga speaker.jpeg"
@@ -48,11 +50,10 @@ function events() {
             height="auto"
             width="auto"
             className="rounded-xl"
-
           />
         </div>
 
-        <div className="details">
+        <div className="flex flex-col space-y-4 tracking-widest	px-[20%] text-center">
           <h2>Concept note</h2>
           <p>
             Open collaboration often allows communities to achieve more than
@@ -73,17 +74,24 @@ function events() {
             <img src="" alt="img" />
           </div>
         </div>
-      </section>
-      <section className="donation">
-        <h2>DONATE</h2>
-        <div className="productShow">
-          <p>You can also contribute by donating</p>
-          <p>Purchasing our Branded material</p>
-          <img src="" alt="img" />
-          <button>VIEW PRODUCTS</button>
+      </div>
+      <section className="flex justify-between items-center md:px-20">
+        <h2 className="text-[60px] text-[#EAD308]">DONATE</h2>
+        <div className="flex-col space-y-5 items-stretch">
+          <div>
+            <p>You can also contribute by donating</p>
+            <p>Purchasing our Branded material</p>
+          </div>
+
+          <div>
+            <img src="/images/products/shirt.png" height="auto" width="350px" />
+          </div>
+
+          <button className="rounded-sm bg-[#5A75AB] text-white p-4 align-middle">
+            VIEW PRODUCTS
+          </button>
         </div>
       </section>
-      this is an experience <section></section>
     </section>
   );
 }
