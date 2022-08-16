@@ -10,7 +10,7 @@ function Card({ url, leadImg, leadName, leadLang, leadLinkedin, leadTwitter, lea
   };
 
   return (
-    <div className="shadow shadow-black-500/40 p-10 rounded">
+    <div className="shadow shadow-black-500/40 p-10 rounded bg-slate-200">
       <div className="relative w-[250px] h-[350px] overflow-auto">
         <Image
           src={leadImg}
