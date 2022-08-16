@@ -39,9 +39,6 @@ function Navbar() {
 
 
         <ul className="hidden md:flex items-center">
-          <Link href="about">
-            <li className="ml-10 text-sm uppercase hover:border-b">About</li>
-          </Link>
           <Link href="projects">
             <li className="ml-10 text-sm uppercase hover:border-b">Projects</li>
           </Link>{" "}
@@ -95,9 +92,6 @@ function Navbar() {
           </div>
 
           <ul className="uppercase">
-            <Link href="about" >
-              <li className="py-4 text-sm ">About</li>
-            </Link>
             <Link href="projects">
               <li className="py-4 text-sm ">Projects</li>
             </Link>
