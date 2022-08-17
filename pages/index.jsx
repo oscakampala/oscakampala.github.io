@@ -2,6 +2,8 @@ import Image from 'next/image';
 import Card from '../components/Card';
 import cardData from '../components/metadata/metadata.js';
 import bgImg from '../public/images/oscahomepage.jpg';
+import Zoom from 'react-reveal/Zoom';
+import Slide from 'react-reveal/Slide';
 
 export default function Home() {
   const cardElement = cardData.map((data) => {
@@ -20,25 +22,31 @@ export default function Home() {
   return (
     <section className='grid'>
       <div className='flex justify-center h-[700px] md:h-screen w-full relative'>
-        <Image
-          src={bgImg}
-          layout='fill'
-          className='object-cover md:object-fill'
-        />
+        <Zoom bottom>
+          <Image
+            src={bgImg}
+            layout='fill'
+            className='object-cover md:object-fill'
+          />
+        </Zoom>
         <div className='containe md:mx-auto  flex-col justify-evenly text-white  text-sm absolute w-full p-5  text-center top-[300px] bg- backdrop-blur-sm bg-black/30 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg'>
-          <h1 className=' text-white text-[30px] md:text-[60px]  '>
-            Open Source Community <br />
-            Africa{'{'}
-            <span className='text-orange-400 '>Kampala</span>
-            {'}'}
-          </h1>
+          <Slide left>
+            <h1 className=' text-white text-[30px] md:text-[60px]  '>
+              Open Source Community <br />
+              Africa{'{'}
+              <span className='text-orange-400 '>Kampala</span>
+              {'}'}
+            </h1>
+          </Slide>
 
-          <p className='mt-10  '>
-            Open Source Community Africa (OSCA) is a community for open source
-            lovers, enthusiasts, advocates and experts within and across Africa,
-            with the sole aim of increasing the rate of credible open source
-            contributions by Africans.
-          </p>
+          <Slide right>
+            <p className='mt-10  '>
+              Open Source Community Africa (OSCA) is a community for open source
+              lovers, enthusiasts, advocates and experts within and across
+              Africa, with the sole aim of increasing the rate of credible open
+              source contributions by Africans.
+            </p>
+          </Slide>
         </div>
       </div>
 
