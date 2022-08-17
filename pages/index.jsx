@@ -46,15 +46,22 @@ export default function Home() {
               </p>
             </div>
           </div>
-    
+          <div className="text-center p-20 bg-slate-300">
+            <h2 className="text-center pb-10">What is OSCA?</h2>
+            <p className="px-10">
+              Open Source Community Africa (OSCA) is a community of open source lovers, enthusiasts, advocates and experts across the African continent.
+              OSCA's sole goal is to increase the rate of credible countributions to open source by African coders, writers, designers and everyone
+              involved in the tech space to local & global projects; changing the perception of Africans from just a billion users to the <strong> NEXT BILLION CREATORS </strong>
+            </p>
+          </div>
           <div className="container mx-auto text-center mt-[3rem] h-full">
             <h2>Why OSCA?</h2>
             <iframe className="container mx-auto w-[560px]" width="560" height="315" src="https://www.youtube.com/embed/oylCYRfk0NQ" title="YouTube video player" frameBorder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
          
-          <div className="container  mx-auto mt-20">
-            <h2 className="text-center py-4 bg-slate-300">The Team</h2>
-            <div className=" flex flex-wrap gap-5 justify-center px-4 bg-slate-300">
+          <div className="container mx-auto mt-20">
+            <h2 className="text-center py-20 bg-slate-300">The Team</h2>
+            <div className=" flex flex-wrap gap-5 justify-center pb-20 px-20 bg-slate-300">
               {cardElement}
             </div>
           </div>
