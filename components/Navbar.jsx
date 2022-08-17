@@ -38,31 +38,37 @@ function Navbar() {
   ];
 
   return (
-    <div className='fixed w-full h-20 shadow-xl z-10 bg-[#e5e7eb] mt-0 md:px-20'>
-      <div className='flex justify-between items-center w-full h-full container mx-auto'>
+    <div className='fixed w-full h-20 shadow-xl z-10 bg-[#e5e7eb] mt-0 '>
+      <div className='flex justify-between items-center w-full h-full px-5 mx-auto border-2 border-[red]'>
         <LogoLg />
 
         <ul className='hidden md:flex items-center'>
-          { links.map((link, index) => {
+          {links.map((link, index) => {
             const { text, path } = link;
             return (
               <Link href={path} key={index}>
-                <li className="capitalize text-sm tracking-wider ml-10 font-bold">{text}</li>
+                <li className='capitalize text-xs lg:text-sm tracking-wider ml-10 font-bold'>
+                  {text}
+                </li>
               </Link>
-            )
-          }) }
+            );
+          })}
           <Link href='https://t.me/oscakampala'>
-            <button className='ml-10 text-sm tracking-wider capitalize shadow-md hover:shadow-xl text-white py-2 px-10 bg-[#C6C600] font-bold rounded-md'>
-              Join Community
+            <button className='ml-10 text-xs lg:text-sm tracking-wider none shadow-md hover:shadow-xl normal-case text-white py-2 px-10 bg-[#C6C600] font-bold rounded-md'>
+              Join community
+            </button>
+          </Link>
+          <Link href='/login' passHref>
+            <button className='ml-10 text-xs lg:text-sm tracking-wider capitalize shadow-md hover:shadow-xl text-white py-2 px-10 bg-[#5A75AB] font-bold rounded-md'>
+              login
             </button>
           </Link>
         </ul>
-
-        <div onClick={handleClick} className='md:hidden cursor-pointer '>
-          <CgMenuRight size={30} />
-        </div>
       </div>
 
+      <div onClick={handleClick} className='md:hidden cursor-pointer '>
+        <CgMenuRight size={30} />
+      </div>
       <div
         className={
           nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
