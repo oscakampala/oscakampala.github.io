@@ -10,22 +10,21 @@ function Card({ url, leadImg, leadName, leadLang, leadLinkedin, leadTwitter, lea
   };
 
   return (
-    <div className="shadow shadow-black-500/40 p-10 rounded bg-slate-200">
-      <div className="relative w-[250px] h-[350px] overflow-auto">
+    <div className="flex flex-col sm:w-auto justify-center shadow shadow-black-500/40 p-10 rounded bg-slate-200">
         <Image
-          src={leadImg}
-          layout="fill"
+          src={leadImg} 
           objectFit="cover"
           className="rounded"
+          width={350}
+          height={470}
         />{" "}
-      </div>
-      <div className="flex justify-between container px-2 py-4 ">
+      <div className="flex sm:flex-col md:flex-row justify-between container px-2 py-4 ">
         <div>
           <h3>{leadName}</h3>
           <p className="banner">{leadLang}</p>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 sm:mt-3 md:mt-0">
           <div className="cursor-pointer">
 						{" "}
 						<a target="_blank" href={leadLinkedin}>

@@ -3,7 +3,7 @@ import Header from './Header';
 
 const Layout = ({ children }) => {
   return (
-    <main >
+    <main className='grid'>
       <Header />
       {children}
       <Footer />

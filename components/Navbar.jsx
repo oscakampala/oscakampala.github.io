@@ -65,12 +65,12 @@ const MobileNavbar = () => {
       </div>
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 bottom-0 w-full h-screen bg-black/70' : ''
+          nav ? 'md:hidden fixed left-0 top-0 bottom-0 w-full bg-black/70' : ''
         }>
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-slate-50 p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] bg-slate-50 p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 w-[75%] p-10 ease-in duration-500'
           }>
           <div className='flex w-full items-center justify-between'>
@@ -119,7 +119,7 @@ const MobileNavbar = () => {
               Let's Connect
             </p>
           </div>
-          <div className='pt-4 flex justify-between '>
+          <div className='pt-4 flex justify-between bg-slate-50 w-full'>
             {socialLinks.map((socialLink, index) => {
               const { icon, link } = socialLink;
               return (
