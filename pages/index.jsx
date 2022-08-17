@@ -19,22 +19,19 @@ export default function Home() {
       });
     
       return (
-        <section className="flex-col md:flex-col">
-          <div className="flex justify-center h-full w-full">
-            <div className=" shrink h-screen  md:h-screen">
+        <section className="grid">
+          <div className="flex justify-center h-screen w-full relative">
               <Image
                 src={bgImg}
                 layout="fill"
                 objectFit="cover"
-                // className=" h-screen w-[auto] object-cover"
               />
-            </div>
             <div
-              className="container md:mx-auto  flex-col justify-evenly text-white  text-sm absolute w-full p-5  text-center top-[300px] bg- backdrop-blur-sm bg-black/30 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg">
+              className="containe md:mx-auto  flex-col justify-evenly text-white  text-sm absolute w-full p-5  text-center top-[300px] bg- backdrop-blur-sm bg-black/30 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg">
               <h1 className=" text-white text-[30px] md:text-[60px]  ">
                 Open Source Community <br />
                 Africa{"{"}
-                <span className="kampala text-orange-400 ">Kampala</span>
+                <span className="text-orange-400 ">Kampala</span>
                 {"}"}
               </h1>
     
@@ -47,7 +44,7 @@ export default function Home() {
             </div>
           </div>
     
-          <div className="container mx-auto text-center mt-[3rem] h-full">
+          <div className="containe mx-auto text-center mt-[3rem] h-full">
             <h2>Why OSCA?</h2>
             <iframe className="container mx-auto w-[560px]" width="560" height="315" src="https://www.youtube.com/embed/oylCYRfk0NQ" title="YouTube video player" frameBorder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
