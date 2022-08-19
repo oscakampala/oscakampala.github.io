@@ -9,7 +9,7 @@ function events() {
       <div className="flex items-center bg-[url('../public/images/community.jpg')]  bg-no-repeat bg-cover contrast-150  min-h-screen min-w-screen ">
         <div className="container mx-auto">
           <h1 className="text-center sm:text-[100px] md:text-[200px]">
-            SUM<div className={styles.M}>M</div>
+            SUM<div className={styles.M}><br/>M</div>
             <div className={styles.wordFormat}>IT</div>
           </h1>
         </div>
