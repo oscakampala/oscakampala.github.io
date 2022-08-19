@@ -20,17 +20,17 @@ function Card({
   };
 
   return (
-    <div className='flex flex-col sm:w-auto justify-center shadow shadow-black-500/40 p-10 rounded bg-slate-200'>
+    <div className='flex flex-col w-full justify-center shadow shadow-black-500/40 p-8 rounded bg-slate-200'>
       <Zoom bottom>
         <Image
           src={leadImg}
           objectFit='cover'
-          className='rounded'
-          width={350}
-          height={470}
+          className='rounded'  
+          height={600}
+          width={500}
         />{' '}
       </Zoom>
-      <div className='flex sm:flex-col md:flex-row justify-between container px-2 py-4 '>
+      <div className='flex sm:flex-col md:flex-row justify-between container px-2 pt-4 '>
         <Fade right>
           <div>
             <h3>{leadName}</h3>
