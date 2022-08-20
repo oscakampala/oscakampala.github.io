@@ -10,8 +10,8 @@
   }
 
   body {
-    @apply bg-[#ecf0f3] 
-         text-[#283756];
+    @apply bg-primary-light 
+         text-primary-dark;
   }
 
   h1,
