@@ -12,7 +12,7 @@ function LogoLg() {
         </div>
         <p className='md:ml-20'>
           OSCA{'{'}
-          <span className='kampala text-orange-400 '>Kampala</span>
+          <span className='text-secondary-4 '>Kampala</span>
           {'}'}
         </p>
       </div>

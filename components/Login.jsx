@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { useState } from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
 import { RiLockPasswordLine } from 'react-icons/ri';
 
@@ -27,9 +28,20 @@ const Login = () => {
 };
 
 const LoginSection = () => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const user = {
+    email,
+    password,
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('form has been submitted');
+    console.log(`form has been submitted by ${user.email} with password ${user.password}`);
+
+    setEmail('');
+    setPassword('');
   };
 
   return (
@@ -41,6 +53,8 @@ const LoginSection = () => {
           <HiOutlineMail className='w-7 h-7 absolute bottom-1' />
           <input
             type='text'
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             className='bg-transparent py-2 pl-8 border-b-[1px] border-b-slate-900 w-full outline-none'
           />
         </div>
@@ -49,6 +63,8 @@ const LoginSection = () => {
           <RiLockPasswordLine className='w-7 h-7 absolute bottom-1' />
           <input
             type='password'
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
             className='bg-transparent py-2 pl-8 border-b-[1px] border-b-slate-900 w-full outline-none'
           />
         </div>
