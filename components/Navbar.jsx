@@ -63,8 +63,8 @@ const MobileNavbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] bg-slate-50 p-10 ease-in duration-500'
-              : 'fixed left-[-100%] top-0 w-[75%] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 h-full w-[75%] sm:w-[60%] md:w-[45%] bg-slate-50 p-10 ease-in duration-500'
+              : 'fixed h-full left-[-100%] top-0 w-[75%] p-10 ease-in duration-500'
           }>
           <div className='flex w-full items-center justify-between'>
             <Image
@@ -100,7 +100,7 @@ const MobileNavbar = () => {
                   Join Community
                 </button>
               </Link>
-              <Link href='/login' passHref>
+              <Link href='/user/login' passHref>
                 <button className=' text-white py-4 text-sm shadow p-2.5 bg-[#5A75AB] mt-4'>
                   login
                 </button>
@@ -112,7 +112,7 @@ const MobileNavbar = () => {
               Let's Connect
             </p>
           </div>
-          <div className='pt-4 flex justify-between bg-slate-50 w-full'>
+          <div className='pt-4 flex justify-between w-full'>
             {socialLinks.map((socialLink, index) => {
               const { icon, link } = socialLink;
               return (
@@ -150,7 +150,7 @@ const DeskTopNavbar = () => {
             Join community
           </button>
         </Link>
-        <Link href='/login' passHref>
+        <Link href='/user/login' passHref>
           <button className='ml-5 lg:ml-10 text-xs lg:text-sm tracking-wider capitalize shadow-md hover:shadow-xl text-white py-2 px-6 bg-[#5A75AB] font-bold rounded-md'>
             login
           </button>
