@@ -1,25 +1,22 @@
 /** @format */
 
-import Image from "next/image";
-import Link from "next/link";
-  
+import Image from 'next/image';
+import Link from 'next/link';
+
 function LogoLg() {
   return (
-    <Link className="flex items-center" href='/'>
-     <div className="navLogo flex items-center text-[20px] md:text-[25px] cursor-pointer"> {/*the cursor-pointer className ensures a hand shaped cursor when hovering over the logo */}
-      <Image
-        src="/images/osca-logo.png"
-        height="100"
-        width="100"
-        className="logomd"
-      />
-      <span className="font-bold text-sm md:text-xl">
-        OSCA{"{"}
-        <span className="kampala text-orange-400 ">Kampala</span>
-        {"}"}
-      </span>
+    <Link className='' href='/'>
+      <div className='flex items-center cursor-pointer relative'>
+        <div className='md:absolute left-0 flex items-center'>
+          <Image src='/images/osca-logo.png' width={80} height={80} />
+        </div>
+        <p className='md:ml-20'>
+          OSCA{'{'}
+          <span className='kampala text-orange-400 '>Kampala</span>
+          {'}'}
+        </p>
       </div>
-      </Link>
+    </Link>
   );
 }
 

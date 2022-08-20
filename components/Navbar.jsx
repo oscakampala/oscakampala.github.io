@@ -5,23 +5,16 @@ import LogoLg from './LogoLg';
 import Link from 'next/link';
 import { useState } from 'react';
 import {
-  AiOutlineMenu,
   CgMenuRight,
-  MdOutlineClose,
   CgClose,
 } from 'react-icons/cg';
 
 import {
   FaFacebook,
-  FaFacebookF,
   FaGithub,
-  FaGithubSquare,
   FaLinkedinIn,
-  FaTwitch,
   FaTwitter,
 } from 'react-icons/fa';
-// import { useState } from "react/cjs/react.production.min";
-// import Lo
 
 const LINKS = [
   { text: 'about', path: '/about' },
@@ -60,7 +53,7 @@ const MobileNavbar = () => {
     <div className=''>
       <div
         onClick={handleClick}
-        className='text-[#5A75AB] absolute right-7 top-5'>
+        className='text-[#5A75AB] md:hidden absolute right-7 top-5'>
         <CgMenuRight size={30} />
       </div>
       <div
@@ -141,25 +134,24 @@ const DeskTopNavbar = () => {
   return (
     <div className='flex justify-between items-center w-full h-full px-5 mx-auto'>
       <LogoLg />
-
       <ul className='hidden md:flex items-center'>
         {LINKS.map((link, index) => {
           const { text, path } = link;
           return (
             <Link href={path} key={index}>
-              <li className='capitalize text-xs lg:text-sm tracking-wider ml-10 font-bold'>
+              <li className='capitalize text-xs lg:text-sm tracking-wider ml-5 lg:ml-10 font-bold'>
                 {text}
               </li>
             </Link>
           );
         })}
         <Link href='https://t.me/oscakampala'>
-          <button className='ml-10 text-xs lg:text-sm tracking-wider none shadow-md hover:shadow-xl normal-case text-white py-2 px-10 bg-[#C6C600] font-bold rounded-md'>
+          <button className='ml-5 lg:ml-10 text-xs lg:text-sm tracking-wider none shadow-md hover:shadow-xl normal-case text-white py-2 px-6 bg-[#C6C600] font-bold rounded-md'>
             Join community
           </button>
         </Link>
         <Link href='/login' passHref>
-          <button className='ml-10 text-xs lg:text-sm tracking-wider capitalize shadow-md hover:shadow-xl text-white py-2 px-10 bg-[#5A75AB] font-bold rounded-md'>
+          <button className='ml-5 lg:ml-10 text-xs lg:text-sm tracking-wider capitalize shadow-md hover:shadow-xl text-white py-2 px-6 bg-[#5A75AB] font-bold rounded-md'>
             login
           </button>
         </Link>
