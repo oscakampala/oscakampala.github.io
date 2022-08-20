@@ -1,6 +1,7 @@
 /** @format */
 
 import Image from 'next/image';
+
 import LogoLg from './LogoLg';
 import LogoSm from './LogoSm';
 import Link from 'next/link';
@@ -9,8 +10,9 @@ import { CgMenuRight, CgClose } from 'react-icons/cg';
 
 import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
+
 const LINKS = [
-  { text: 'about', path: '/about' },
+  { text: 'about', path: '/' },
   { text: 'projects', path: '/projects' },
   { text: 'experince', path: '/experience' },
   { text: 'events', path: '/events' },
@@ -131,6 +133,7 @@ const MobileNavbar = () => {
   );
 };
 
+
 const DeskTopNavbar = () => {
   return (
     <div className='flex justify-between items-center w-full h-full pr-8 pl-2 mx-auto'>
@@ -160,5 +163,6 @@ const DeskTopNavbar = () => {
     </div>
   );
 };
+
 
 export default Navbar;
