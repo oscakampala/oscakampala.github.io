@@ -4,17 +4,9 @@ import Image from 'next/image';
 import LogoLg from './LogoLg';
 import Link from 'next/link';
 import { useState } from 'react';
-import {
-  CgMenuRight,
-  CgClose,
-} from 'react-icons/cg';
+import { CgMenuRight, CgClose } from 'react-icons/cg';
 
-import {
-  FaFacebook,
-  FaGithub,
-  FaLinkedinIn,
-  FaTwitter,
-} from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 const LINKS = [
   { text: 'about', path: '/about' },
@@ -53,7 +45,7 @@ const MobileNavbar = () => {
     <div className=''>
       <div
         onClick={handleClick}
-        className='text-[#5A75AB] md:hidden absolute right-7 top-5'>
+        className='text-primary-dark md:hidden absolute right-7 top-5'>
         <CgMenuRight size={30} />
       </div>
       <div
@@ -82,37 +74,45 @@ const MobileNavbar = () => {
           </div>
 
           <div className='border-b border-gray-300 my-4'>
-            <p className='py-4'>Lets build something legendary together</p>
+            <p className='sm:py-4'>Lets build something legendary together</p>
           </div>
 
           <ul className='uppercase'>
             {LINKS.map((link, index) => {
               const { text, path } = link;
               return (
-                <Link href={path} key={index}>
-                  <li className='py-4 text-sm'>{text}</li>
+                <Link href={path} key={index} passHref>
+                  <li
+                    className='py-2 sm:py-4 text-sm'
+                    onClick={() => setNav(false)}>
+                    {text}
+                  </li>
                 </Link>
               );
             })}
-            <div className='flex flex-col'>
-              <Link href='joinComm'>
-                <button className='py-4 text-sm shadow text-white p-2.5 bg-orange-400 font-bold'>
+            <div className='flex flex-col mt-5'>
+              <Link href='/joinComm' passHref>
+                <button
+                  className='py-4 text-sm shadow text-white p-2.5 bg-secondary-3 font-bold tracking-wider'
+                  onClick={() => setNav(false)}>
                   Join Community
                 </button>
               </Link>
               <Link href='/user/login' passHref>
-                <button className=' text-white py-4 text-sm shadow p-2.5 bg-[#5A75AB] mt-4'>
+                <button
+                  className=' text-white py-4 text-sm shadow p-2.5 bg-[#5A75AB] mt-4 tracking-wider'
+                  onClick={() => setNav(false)}>
                   login
                 </button>
               </Link>
             </div>
           </ul>
-          <div className='pt-10 md:pt-10'>
+          <div className='mt-7 md:pt-10'>
             <p className='uppercase tracking-widest text-[#5651e5]'>
               Let's Connect
             </p>
           </div>
-          <div className='pt-4 flex justify-between w-full'>
+          <div className='mt-4 flex justify-between w-full'>
             {socialLinks.map((socialLink, index) => {
               const { icon, link } = socialLink;
               return (
@@ -132,7 +132,7 @@ const MobileNavbar = () => {
 
 const DeskTopNavbar = () => {
   return (
-    <div className='flex justify-between items-center w-full h-full px-5 mx-auto'>
+    <div className='flex justify-between items-center w-full h-full pr-8 pl-2 mx-auto'>
       <LogoLg />
       <ul className='hidden md:flex items-center'>
         {LINKS.map((link, index) => {
