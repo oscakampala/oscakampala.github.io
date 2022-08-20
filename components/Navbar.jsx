@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import LogoLg from './LogoLg';
+import LogoSm from './LogoSm';
 import Link from 'next/link';
 import { useState } from 'react';
 import { CgMenuRight, CgClose } from 'react-icons/cg';
@@ -42,7 +43,7 @@ const MobileNavbar = () => {
   ];
 
   return (
-    <div className=''>
+    <div>
       <div
         onClick={handleClick}
         className='text-primary-dark md:hidden absolute right-7 top-5'>
