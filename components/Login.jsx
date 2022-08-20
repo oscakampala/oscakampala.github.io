@@ -10,7 +10,7 @@ const Login = () => {
         <div className='md:border-[1px] rounded-md md:flex flex-row-reverse items-center md:pb-12 md:pt-8 md:pr-10'>
           <div className='md:flex items-center h-[200px] md:border-l-[1px] border-slate-900 ml-5 md:pl-8'>
             <Image
-              src='/../public/images/osca-logo.png'
+              src='../public/images/osca-logo.png'
               alt='/'
               width={200}
               height={200}

@@ -76,7 +76,7 @@ const MobileNavbar = () => {
             </div>
           </div>
 
-          <div className='border-b border-gray-300 my-4'>
+          <div className='border-b pb-3 border-gray-300 my-4'>
             <p className='sm:py-4'>Lets build something legendary together</p>
           </div>
 
@@ -96,7 +96,7 @@ const MobileNavbar = () => {
             <div className='flex flex-col mt-5'>
               <Link href='/joinComm' passHref>
                 <button
-                  className='py-4 text-sm shadow text-white p-2.5 bg-secondary-3 font-bold tracking-wider'
+                  className='py-4 text-sm shadow text-white p-2.5 bg-secondary-4 font-bold tracking-wider'
                   onClick={() => setNav(false)}>
                   Join Community
                 </button>
