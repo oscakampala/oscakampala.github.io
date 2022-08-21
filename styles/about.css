@@ -1,14 +1,14 @@
 /** @format */
 
-.aboutImg {
+/* .aboutImg {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  /*-webkit-filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+                  filter: grayscale(100%);*/
   /* object-position: right; */
 
-}
 
-
-.logoMd{
+/*.logoMd{
   height: 50px;
   width: 50px;
 }
@@ -18,3 +18,5 @@
   padding: 0 .5rem
 
 }
+
+} */

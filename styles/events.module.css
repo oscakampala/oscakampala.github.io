@@ -1,11 +1,13 @@
 /** @format */
 
-.section {
+/* .section {
   text-align: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+*/
 
 .wordFormat {
   color: #ffffff;
@@ -14,5 +16,5 @@
 .M {
   display: inline;
   color: #c6c600;
-}
+} 
 
