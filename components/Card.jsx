@@ -1,6 +1,5 @@
 /** @format */
 
-import { Link } from 'react-feather';
 import Image from 'next/image';
 import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
 import Zoom from 'react-reveal/Zoom';
