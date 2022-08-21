@@ -2,25 +2,34 @@
 
 import styles from '../styles/events.module.css';
 import img from 'next/image';
+import Image from 'next/image';
 import tungaSVG from '../public/images/tunga.svg';
 import innovationVillageSVG from '../public/images/innovation-village.svg';
 import oscaShirts from '../public/images/osca-shirts.svg';
 import summitPoster from '../public/images/summitposter.jpg';
 import musokeSpeaker from '../public/images/musoke speaker.jpeg';
 import malingaSpeaker from '../public/images/malinga speaker.jpeg';
+import coverImage from '../public/images/community.jpg';
 
 function events() {
   return (
     <section className=''>
-      <div className="flex items-center bg-[url('../public/images/community.jpg')]  bg-no-repeat bg-cover contrast-150  min-h-screen min-w-screen ">
-        <div className='mx-auto'>
-          <h1 className='text-center sm:text-[100px] md:text-[200px]'>
-            SUM
-            <div className={styles.M}>
-              <br />M
-            </div>
-            <div className={styles.wordFormat}>IT</div>
+      <div className='relative w-screen h-[300px] md:h-screen'>
+        <div className='h-full w-full absolute'>
+          <img
+            src={coverImage.src}
+            alt='cover image'
+            className='object-cover h-full w-full'
+          />
+        </div>
+        <div className='mx-auto flex items-center justify-center md:flex-col h-full relative'>
+          <h1 className='font-bold text-7xl md:text-[200px] uppercase'>
+            <span className='text-[#283756]'>sum</span>
+            <span className='text-[#C6C600]'>m</span>{' '}
+            <br className='hidden md:block' />
+            <span className='text-white md:hidden'>it</span>
           </h1>
+          <h1 className='font-bold hidden md:block text-white text-[200px] uppercase text-center'>it</h1>
         </div>
       </div>
       <div className='max-w-6xl mx-auto mt-10'>
@@ -48,8 +57,8 @@ const Summit = () => {
         <p>Date : 9th April 2022</p>
         <p>Time : 10 AM to 5 PM</p>
       </div>
-      <div className='grid grid-rows-2 grid-cols-4 gap-4 border'>
-        <div className='bg-cover col-start-1 col-end-4 row-start-1 row-end-3'>
+      <div className='grid md:grid-rows-2 md:grid-cols-4 gap-4'>
+        <div className='bg-cover col-span-2 md:col-span-2 md:col-start-1 md:col-end-4 md:row-start-1 md:row-end-3'>
           <img
             src={summitPoster.src}
             alt='img'
@@ -58,6 +67,7 @@ const Summit = () => {
             className='rounded-xl'
           />
         </div>
+        <div className=''>
           <img
             src={musokeSpeaker.src}
             alt='img'
@@ -65,13 +75,14 @@ const Summit = () => {
             height='auto'
             className='rounded-xl h-full'
           />
-          <img
-            src={malingaSpeaker.src}
-            alt='img'
-            width='auto'
-            height='auto'
-            className='rounded-xl h-full'
-          />
+        </div>
+        <img
+          src={malingaSpeaker.src}
+          alt='img'
+          width='auto'
+          height='auto'
+          className='rounded-xl h-full'
+        />
       </div>
     </div>
   );
@@ -102,10 +113,10 @@ const Sponsors = () => {
       <div className='w-full flex justify-between px-8'>
         {/* SVGs for small screens */}
         <div className='sm:hidden'>
-          <img src={tungaSVG} alt='tunga svg' width={80} height={80} />
+          <Image src={tungaSVG} alt='tunga svg' width={80} height={80} />
         </div>
         <div className='sm:hidden'>
-          <img
+          <Image
             alt='innovation villageg'
             src={innovationVillageSVG}
             width={166}
@@ -114,10 +125,10 @@ const Sponsors = () => {
         </div>
         {/* SVGs for medium screens screens */}
         <div className='hidden sm:block lg:hidden'>
-          <img src={tungaSVG} alt='tunga svg' width={188} height={188} />
+          <Image src={tungaSVG} alt='tunga svg' width={188} height={188} />
         </div>
         <div className='hidden sm:block lg:hidden'>
-          <img
+          <Image
             alt='innovation villageg'
             src={innovationVillageSVG}
             width={343}
@@ -126,10 +137,10 @@ const Sponsors = () => {
         </div>
         {/* SVGs for very large screens */}
         <div className='hidden lg:block'>
-          <img src={tungaSVG} alt='tunga svg' width={288} height={285} />
+          <Image src={tungaSVG} alt='tunga svg' width={288} height={285} />
         </div>
         <div className='hidden lg:block'>
-          <img
+          <Image
             alt='innovation villageg'
             src={innovationVillageSVG}
             width={543}
@@ -153,7 +164,7 @@ const Support = () => {
           </div>
         </div>
         <div className='flex flex-col items-center mt-8'>
-          <img src={oscaShirts} alt='osca shirts' width={238} height={245} />
+          <Image src={oscaShirts} alt='osca shirts' width={238} height={245} />
           <button className='rounded-md bg-[#5A75AB] text-white text-lg py-4 px-10 tracking-wider align-middle'>
             VIEW PRODUCTS
           </button>
