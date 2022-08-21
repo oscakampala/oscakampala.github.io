@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
 import { RiLockPasswordLine } from 'react-icons/ri';
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
 const Login = () => {
   return (
@@ -10,7 +11,7 @@ const Login = () => {
         <div className='md:border-[1px] rounded-md md:flex flex-row-reverse items-center md:pb-12 md:pt-8 md:pr-10'>
           <div className='md:flex items-center h-[200px] md:border-l-[1px] border-slate-900 ml-5 md:pl-8'>
             <Image
-              src='../public/images/osca-logo.png'
+              src='/../public/images/osca-logo.png'
               alt='/'
               width={200}
               height={200}
@@ -30,6 +31,7 @@ const Login = () => {
 const LoginSection = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
 
   const user = {
     email,
@@ -38,7 +40,9 @@ const LoginSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(`form has been submitted by ${user.email} with password ${user.password}`);
+    console.log(
+      `form has been submitted by ${user.email} with password ${user.password}`
+    );
 
     setEmail('');
     setPassword('');
@@ -55,18 +59,31 @@ const LoginSection = () => {
             type='text'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className='bg-transparent py-2 pl-8 border-b-[1px] border-b-slate-900 w-full outline-none'
+            className='bg-transparent py-2 pl-8 font-medium border-b-[1px] border-b-slate-900 w-full outline-none'
           />
         </div>
         <div className='mt-6 relative'>
           <h3>Password</h3>
           <RiLockPasswordLine className='w-7 h-7 absolute bottom-1' />
-          <input
-            type='password'
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            className='bg-transparent py-2 pl-8 border-b-[1px] border-b-slate-900 w-full outline-none'
-          />
+            <input
+              type={showPassword ? 'text' : 'password'}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className='bg-transparent py-2 pl-8 font-medium border-b-[1px] border-b-slate-900 w-full outline-none'
+            />
+          {showPassword ? (
+            <FaEye
+              id='password-eye'
+              onClick={() => setShowPassword(!showPassword)}
+              className='absolute bottom-1 right-1 lg:cursor-pointer'
+            />
+          ) : (
+            <FaEyeSlash
+              id='password-eye'
+              onClick={() => setShowPassword(!showPassword)}
+              className='absolute bottom-1 right-1 lg:cursor-pointer'
+            />
+          )}
         </div>
         <button
           type='submit'
