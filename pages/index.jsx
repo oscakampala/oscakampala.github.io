@@ -72,17 +72,17 @@ export default function Home() {
         <div className='md:mr-12'>
           <h3 className='text-xl'>Core Values</h3>
           <ul>
-            <li>Nurturing developers</li>
-            <li>Nurturing developers</li>
-            <li>Nurturing developers</li>
+            <li>Creativity and Excellence</li>
+            <li>Boldness and Integrity in operations</li>
+            <li>Developer Nurturing and Skillset enhancement</li>
           </ul>
         </div>
         <div className='mt-5 md:mt-0'>
           <h3 className='text-xl'>Benefits</h3>
           <ul>
-            <li>Nurturing developers</li>
-            <li>Nurturing developers</li>
-            <li>Nurturing developers</li>
+            <li>Be part of Africa's next Billion Creators</li>
+            <li>Networking with best developer talent</li>
+            <li>Making a world a better place using open source software</li>
           </ul>
         </div>
       </div>
