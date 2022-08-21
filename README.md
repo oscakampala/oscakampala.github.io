@@ -1,3 +1,16 @@
+## Table of contents
+
+- [Introduction](#the-introduction)
+- [How to Get Started](#how-to-get-started)
+- [Where To Ask Questions](#where-to-ask-questions)
+- [Links and Resources](#links-and-resources)
+- [Get in Touch](#how-to-get-in-touch)
+- [Creating a Docker Container Image](#creating-a-docker-container-image)
+- [Built with](#built-with)
+- [APIs or Libraries used](#apis-and-libraries-used)
+  - [Animations](#animations)
+
+
 # 📜 The Introduction
 
 [![Gitter](https://badges.gitter.im/OSCA-Kampala-Chapter/TTS.svg)](https://gitter.im/OSCA-Kampala-Chapter/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
@@ -19,7 +32,7 @@ To get started in the open source there's a multitude of tools you can use but f
 
 <img src="https://static.scarf.sh/a.png?x-pxid=cf317fe7-2188-4721-bc01-124bb5d5dbb2" />
 
-## 💬 Where to ask questions
+## 💬 Where to Ask Questions
 
 Please use our dedicated channels for questions and discussion. Help is much more valuable if it's shared publicly so that more people can benefit from it.
 
@@ -79,3 +92,23 @@ Incase you wish to run a the uploaded container image you can do so like below
 Then you are able to check it out on 
 
 `http://localhost:8080/`
+
+## Built with.
+
+- React.js as the front-end library
+- Next.js as the react framework
+- Tailwind css
+
+## APIs and Libraries used
+
+### Animations
+
+The `react-reveal` library was used for the animations like those on the home page, for example.
+
+**Installation**
+In the command prompt run:
+`npm install react-reveal --save`
+Alternatively you may use `yarn`:
+`yarn add react-reveal`
+ 
+ For more about how the `react-reveal` library works, you can [read its documentation.](https://www.react-reveal.com/examples/)

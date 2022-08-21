@@ -31,19 +31,19 @@ function Footer() {
 
       <div className="self-center w-72 mx-10 py-5">
         <div className=" flex md:flex  justify-between gap-5 mt-5 md:mt-0" >
-          <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-orange-600">
+          <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-secondary-4">
             <FaGoogle size={20} />
           </div>
-          <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-orange-600">
+          <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-secondary-4">
             <FaFacebookF size={20} />
           </div>{" "}
           <Link href="https://twitter.com/oscakampala" target="blank">
-          <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-orange-600">
+          <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-secondary-4">
             <FaTwitter size={20} />
           </div>
           </Link>{" "}
           <Link href="https://github.com/OSCA-Kampala-Chapter">
-          <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-orange-600">
+          <div className="shadow-lg shadow-gray-400 p-2 rounded-full hover:scale-125 duration-300 ease-in-out cursor-pointer text-secondary-4">
             <FaGithub size={20} />
           </div>
           </Link>
