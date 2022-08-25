@@ -37,9 +37,14 @@ const Form = () => {
   const [title, setTitle] = useState('');
 
   const inputStyles = `rounded-md bg-[D9D9D9] py-2 pl-2 font-medium mt-4 w-full outline-none`;
+
+ const handleSubmit = () => {
+  
+ }
+
   return (
     <div>
-      <form action='' className='mt-12 px-5'>
+      <form onSubmit={handleSubmit} className='mt-12 px-5'>
         <div>
           <h3 className='text-black'>First Name:</h3>
           <input
@@ -134,6 +139,11 @@ const Form = () => {
             </label>
           </div>
         </div>
+        <button
+          type='submit'
+          className='mt-12 w-full rounded-md py-3 capitalize bg-[#5A75AB] text-white font-bold tracking-wider'>
+          Submit
+        </button>
       </form>
     </div>
   );
