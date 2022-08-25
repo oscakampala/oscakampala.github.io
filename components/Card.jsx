@@ -14,10 +14,7 @@ function Card({
   leadTwitter,
   leadGithub,
 }) {
-  const handleClick = () => {
-    console.log(url);
-  };
-
+ 
   return (
     <div className='flex flex-col w-full justify-center shadow shadow-black-500/40 p-8 rounded bg-slate-200'>
       <Zoom bottom>

@@ -19,7 +19,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="w-full max-w-6xl flex flex-col pb-10 lg:justify-between items-center md:items-start md:p-10 lg:flex-row md:gap-10 bg-slate-300 mt-20 container mx-auto bottom-0"  >
+    <footer className="w-full max-w-6xl flex flex-col pt-20 lg:justify-between items-center md:items-start md:p-10 lg:flex-row md:gap-10 bg-slate-300 mt-20 container mx-auto bottom-0"  >
       <div className="footerOne pt-5 mx-5 md:mx-10 md:pt-0 text-center md:text-start flex-col">
         <LogoSm />
         <p>We are a first growing Open Source Community based in Uganda, but an extension of Open Source Community Africa</p>
