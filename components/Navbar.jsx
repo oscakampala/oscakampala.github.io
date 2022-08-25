@@ -150,7 +150,7 @@ const DeskTopNavbar = () => {
             </Link>
           );
         })}
-        <Link href='https://t.me/oscakampala'>
+        <Link href='/joinComm'>
           <button className='ml-5 lg:ml-10 text-xs lg:text-sm tracking-wider none shadow-md hover:shadow-xl normal-case text-white py-2 px-6 bg-[#C6C600] font-bold rounded-md'>
             Join community
           </button>
