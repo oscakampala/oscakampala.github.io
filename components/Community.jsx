@@ -2,7 +2,7 @@ import oscaLogo from '../public/images/osca-logo.png';
 import Image from 'next/image';
 import { useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import { IoIosRadioButtonOff, IoIosRadioButtonOn } from 'react-icons/io';
+import Alert from './Utils'
 
 const Community = () => {
   return (
@@ -35,23 +35,61 @@ const Form = () => {
   const [password, setPassword] = useState('');
   const [retypedPassword, setRetypedPassword] = useState('');
   const [title, setTitle] = useState('');
+  const [alert, setAlert] = useState({
+    show: false,
+    type: 'danger',
+    msg: '',
+  });
 
   const inputStyles = `rounded-md bg-[D9D9D9] py-2 pl-2 font-medium mt-4 w-full outline-none`;
 
- const handleSubmit = () => {
-  
+  const user = {
+    firstname,
+    lastname,
+    email,
+    username,
+    password,
+    title
+  }
+
+ const handleSubmit = (e) => {
+   e.preventDefault();
+   console.log('User details: ', user);
+
+   if (password !== retypedPassword) {
+      setAlert({
+        show: true,
+        type: 'danger',
+        msg: 'Passwords do not match',
+      });
+     return;
+    }
+
+   setEmail('');
+   setFirstname('');
+   setlastname('');
+   setUsername('');
+   setPassword('');
+   setRetypedPassword('');
+   setTitle('')
  }
 
   return (
     <div>
       <form onSubmit={handleSubmit} className='mt-12 px-5'>
+        <div className='absolute'>
+          <div className='fixed w-full top-2 left-0 z-30'>
+            {alert.show && <Alert alert={alert} setAlert={setAlert} />}
+          </div>
+        </div>
         <div>
-          <h3 className='text-black'>First Name:</h3>
+          <h3 className='text-black'>First Name:*</h3>
           <input
             type='text'
             className={inputStyles}
             value={firstname}
             onChange={(e) => setFirstname(e.target.value)}
+            required
           />
         </div>
         <div className='mt-6'>
@@ -64,30 +102,33 @@ const Form = () => {
           />
         </div>
         <div className='mt-6'>
-          <h3 className='text-black'>Email:</h3>
+          <h3 className='text-black'>Email:*</h3>
           <input
             type='text'
             className={inputStyles}
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            required
           />
         </div>
         <div className='mt-6'>
-          <h3 className='text-black'>Username:</h3>
+          <h3 className='text-black'>Username:*</h3>
           <input
             type='text'
             className={inputStyles}
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+            required
           />
         </div>
         <div className='mt-6 relative'>
-          <h3 className='text-black'>Password:</h3>
+          <h3 className='text-black'>Password:*</h3>
           <input
             type={showPassword ? 'text' : 'password'}
             className={inputStyles}
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            required
           />
           {showPassword ? (
             <FaEye
@@ -104,16 +145,17 @@ const Form = () => {
           )}
         </div>
         <div className='mt-6'>
-          <h3 className='text-black'>Retype Password:</h3>
+          <h3 className='text-black'>Retype Password:*</h3>
           <input
             type='text'
             className={inputStyles}
             value={retypedPassword}
             onChange={(e) => setRetypedPassword(e.target.value)}
+            required
           />
         </div>
         <div className='mt-6'>
-          <h3 className='text-black'>Title:</h3>
+          <h3 className='text-black'>Title:*</h3>
           <div
             className='flex items-center mt-3'
             onClick={() => setTitle('mr.')}>
