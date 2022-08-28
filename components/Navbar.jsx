@@ -15,7 +15,7 @@ import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 const LINKS = [
   { text: 'about', path: '/' },
   { text: 'projects', path: '/projects' },
-  { text: 'experince', path: '/experience' },
+  { text: 'experience', path: '/experience' },
   { text: 'events', path: '/events' },
 ];
 
