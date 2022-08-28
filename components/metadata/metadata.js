@@ -31,7 +31,7 @@ export default [
 		leadImg: 'ronney.jpg',
 		lang: 'C# Lead',
 		links: [
-			'https://www.linkedin.com/in/lutaro-ronnie-b73240aa/',
+			'https://www.linkedin.com/in/ronnie-lutalo-b73240aa/',
 			'https://twitter.com/r_lutalo',
 			'https://github.com/RonnieLutalo',
 		],
