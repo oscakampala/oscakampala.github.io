@@ -112,3 +112,40 @@ Alternatively you may use `yarn`:
 `yarn add react-reveal`
  
  For more about how the `react-reveal` library works, you can [read its documentation.](https://www.react-reveal.com/examples/)
+
+
+### Project Structure
+
+```
+.
+├── Dockerfile
+├── .github
+├── .storybook
+├── .gitignore
+├── LICENCE
+├── README.md
+├── tailwind.config.js
+├── postcss.config.js
+├── CONTRIBUTING.md
+├── package.json
+├── components
+│   ├── metadata 
+│                ├── metadata.js
+│   ├── ...
+│   └── Utils.jsx
+├── public
+│   ├── favicon.ico
+│   ├── fonts
+│   └── styles
+├── pages
+│   ├── user
+│           ├── login.jsx
+│   ├── ...
+│   └── _app.js
+├── dist
+│   ├── output.css
+├── styles
+│   ├── ...
+│   └── globals.css
+└── yarn.lock
+```
