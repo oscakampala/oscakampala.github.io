@@ -149,3 +149,32 @@ Alternatively you may use `yarn`:
 │   └── globals.css
 └── yarn.lock
 ```
+
+## Getting Started
+
+### Installation
+
+From the root folder, run `yarn` to install all dependencies, alternatively you can run `npm install`
+
+```bash
+$ yarn
+```
+
+### Useful Scripts
+
+```bash
+
+# From the root folder, run this command install all dependencies
+$ yarn
+
+# Runs the app in the development mode. Open http://localhost:3000 with your browser to see the result.
+$ yarn dev
+
+# building the app
+$ yarn build
+
+# Start a sandbox to view all resusable components developed in the aplication. Open [http://localhost:6006](http://localhost:6006) with your browser to see the result.
+$ yarn storybook
+
+```
+
