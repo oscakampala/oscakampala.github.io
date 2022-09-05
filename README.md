@@ -112,3 +112,61 @@ Alternatively you may use `yarn`:
 `yarn add react-reveal`
  
  For more about how the `react-reveal` library works, you can [read its documentation.](https://www.react-reveal.com/examples/)
+
+
+### Project Structure
+
+```
+.
+├── Dockerfile
+├── .github
+├── .storybook
+├── .gitignore
+├── LICENCE
+├── README.md
+├── tailwind.config.js
+├── postcss.config.js
+├── CONTRIBUTING.md
+├── package.json
+├── components
+│   ├── metadata 
+│                ├── metadata.js
+│   ├── ...
+│   └── Utils.jsx
+├── public
+│   ├── favicon.ico
+│   ├── fonts
+│   └── styles
+├── pages
+│   ├── user
+│           ├── login.jsx
+│   ├── ...
+│   └── _app.js
+├── dist
+│   ├── output.css
+├── styles
+│   ├── ...
+│   └── globals.css
+└── yarn.lock
+```
+
+## Getting Started
+
+### Installation and Useful Scripts
+
+```bash
+
+# From the root folder, run this command install all dependencies
+$ yarn
+
+# Runs the app in the development mode. Open http://localhost:3000 with your browser to see the result.
+$ yarn dev
+
+# building the app
+$ yarn build
+
+# Start a sandbox to view all resusable components developed in the aplication. Open [http://localhost:6006](http://localhost:6006) with your browser to see the result.
+$ yarn storybook
+
+```
+
