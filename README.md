@@ -152,15 +152,7 @@ Alternatively you may use `yarn`:
 
 ## Getting Started
 
-### Installation
-
-From the root folder, run `yarn` to install all dependencies, alternatively you can run `npm install`
-
-```bash
-$ yarn
-```
-
-### Useful Scripts
+### Installation and Useful Scripts
 
 ```bash
 
