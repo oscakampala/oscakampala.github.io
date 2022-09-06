@@ -116,7 +116,7 @@ Alternatively you may use `yarn`:
  For more about how the `react-reveal` library works, you can [read its documentation.](https://www.react-reveal.com/examples/)
 
 
-### Project Structure
+## Project Structure
 
 ```
 .
