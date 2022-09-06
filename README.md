@@ -9,6 +9,8 @@
 - [Built with](#built-with)
 - [APIs or Libraries used](#apis-and-libraries-used)
   - [Animations](#animations)
+- [Project Structure](#project-structure)
+- [Installation and Useful Scripts](#installation-and-useful-scripts)
 
 
 # 📜 The Introduction
