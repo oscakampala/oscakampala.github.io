@@ -9,6 +9,8 @@
 - [Built with](#built-with)
 - [APIs or Libraries used](#apis-and-libraries-used)
   - [Animations](#animations)
+- [Project Structure](#project-structure)
+- [Installation and Useful Scripts](#installation-and-useful-scripts)
 
 
 # 📜 The Introduction
@@ -114,7 +116,7 @@ Alternatively you may use `yarn`:
  For more about how the `react-reveal` library works, you can [read its documentation.](https://www.react-reveal.com/examples/)
 
 
-### Project Structure
+## Project Structure
 
 ```
 .
