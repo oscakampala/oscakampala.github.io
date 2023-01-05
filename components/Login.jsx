@@ -49,21 +49,23 @@ const LoginSection = () => {
       <h1>Login here</h1>
       <form onSubmit={handleSubmit} className=''>
         <div className='mt-6 relative'>
-          <h3>Email or username</h3>
+          <h3>Email or username<span style={{color:'red'}}>*</span></h3>
           <HiOutlineMail className='w-7 h-7 absolute bottom-1' />
           <input
-            type='text'
+            type='email'
             value={email}
+            required
             onChange={(e) => setEmail(e.target.value)}
             className='bg-transparent py-2 pl-8 font-medium border-b-[1px] border-b-slate-900 w-full outline-none'
           />
         </div>
         <div className='mt-6 relative'>
-          <h3>Password</h3>
+          <h3>Password<span style={{color:'red'}}>*</span></h3>
           <RiLockPasswordLine className='w-7 h-7 absolute bottom-1' />
             <input
               type={showPassword ? 'text' : 'password'}
               value={password}
+              required
               autoComplete='on'
               onChange={(e) => setPassword(e.target.value)}
               className='bg-transparent py-2 pl-8 font-medium border-b-[1px] border-b-slate-900 w-full outline-none'
