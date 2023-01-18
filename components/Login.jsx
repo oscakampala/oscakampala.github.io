@@ -1,23 +1,23 @@
-import Image from 'next/image';
-import { useState } from 'react';
-import { HiOutlineMail } from 'react-icons/hi';
-import { RiLockPasswordLine } from 'react-icons/ri';
-import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import oscaLogo from '../public/images/osca-logo.png';
+import Image from "next/image";
+import { useState } from "react";
+import { HiOutlineMail } from "react-icons/hi";
+import { RiLockPasswordLine } from "react-icons/ri";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+import oscaLogo from "../public/images/osca-logo.png";
 
 const Login = () => {
   return (
-    <section className='md:mt-12'>
-      <div className='max-w-sm mx-auto md:max-w-2xl'>
-        <div className='md:shadow-[0px_0px_0px_1px] rounded-md md:flex flex-row-reverse items-center md:pb-12 md:pt-8 md:pr-10'>
-          <div className='md:flex items-center h-[200px] md:border-l-[1px] border-slate-900 ml-5 md:pl-8'>
-            <Image src={oscaLogo} alt='/' width={200} height={200} />
+    <section className="md:mt-12">
+      <div className="max-w-sm mx-auto md:max-w-2xl">
+        <div className="md:shadow-[0px_0px_0px_1px] rounded-md md:flex flex-row-reverse items-center md:pb-12 md:pt-8 md:pr-10">
+          <div className="md:flex items-center h-[200px] md:border-l-[1px] border-slate-900 ml-5 md:pl-8">
+            <Image src={oscaLogo} alt="/" width={200} height={200} />
           </div>
           <LoginSection />
         </div>
-        <div className='px-5 mt-6 md:flex md:px-0 justify-between'>
-          <h3 className='cursor-pointer'>Forgot email or password?</h3>
-          <h3 className='pt-2 md:pt-0 cursor-pointer'>Create Account.</h3>
+        <div className="px-5 mt-6 md:flex md:px-0 justify-between">
+          <h3 className="cursor-pointer">Forgot email or password?</h3>
+          <h3 className="pt-2 md:pt-0 cursor-pointer">Create Account.</h3>
         </div>
       </div>
     </section>
@@ -25,8 +25,8 @@ const Login = () => {
 };
 
 const LoginSection = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
   const user = {
@@ -40,53 +40,58 @@ const LoginSection = () => {
       `form has been submitted by ${user.email} with password ${user.password}`
     );
 
-    setEmail('');
-    setPassword('');
+    setEmail("");
+    setPassword("");
   };
 
   return (
-    <div className='px-5'>
+    <div className="px-5">
       <h1>Login here</h1>
-      <form onSubmit={handleSubmit} className=''>
-        <div className='mt-6 relative'>
-          <h3>Email or username<span style={{color:'red'}}>*</span></h3>
-          <HiOutlineMail className='w-7 h-7 absolute bottom-1' />
+      <form onSubmit={handleSubmit} className="">
+        <div className="mt-6 relative">
+          <h3>
+            Email or username<span className="requiredMarker">*</span>
+          </h3>
+          <HiOutlineMail className="w-7 h-7 absolute bottom-1" />
           <input
-            type='email'
+            type="email"
             value={email}
             required
             onChange={(e) => setEmail(e.target.value)}
-            className='bg-transparent py-2 pl-8 font-medium border-b-[1px] border-b-slate-900 w-full outline-none'
+            className="bg-transparent py-2 pl-8 font-medium border-b-[1px] border-b-slate-900 w-full outline-none"
           />
         </div>
-        <div className='mt-6 relative'>
-          <h3>Password<span style={{color:'red'}}>*</span></h3>
-          <RiLockPasswordLine className='w-7 h-7 absolute bottom-1' />
-            <input
-              type={showPassword ? 'text' : 'password'}
-              value={password}
-              required
-              autoComplete='on'
-              onChange={(e) => setPassword(e.target.value)}
-              className='bg-transparent py-2 pl-8 font-medium border-b-[1px] border-b-slate-900 w-full outline-none'
-            />
+        <div className="mt-6 relative">
+          <h3>
+            Password<span className="requiredMarker">*</span>
+          </h3>
+          <RiLockPasswordLine className="w-7 h-7 absolute bottom-1" />
+          <input
+            type={showPassword ? "text" : "password"}
+            value={password}
+            required
+            autoComplete="on"
+            onChange={(e) => setPassword(e.target.value)}
+            className="bg-transparent py-2 pl-8 font-medium border-b-[1px] border-b-slate-900 w-full outline-none"
+          />
           {showPassword ? (
             <FaEye
-              id='password-eye'
+              id="password-eye"
               onClick={() => setShowPassword(!showPassword)}
-              className='absolute bottom-1 right-1 lg:cursor-pointer'
+              className="absolute bottom-1 right-1 lg:cursor-pointer"
             />
           ) : (
             <FaEyeSlash
-              id='password-eye'
+              id="password-eye"
               onClick={() => setShowPassword(!showPassword)}
-              className='w-5 h-5 absolute bottom-1 right-1 lg:cursor-pointer'
+              className="w-5 h-5 absolute bottom-1 right-1 lg:cursor-pointer"
             />
           )}
         </div>
         <button
-          type='submit'
-          className='bg-secondary-4 w-full text-white text-base py-3 mt-10 rounded-md font-bold tracking-wider cursor-pointer'>
+          type="submit"
+          className="bg-secondary-4 w-full text-white text-base py-3 mt-10 rounded-md font-bold tracking-wider cursor-pointer"
+        >
           Login
         </button>
       </form>
