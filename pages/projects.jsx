@@ -1,9 +1,9 @@
 /** @format */
-
+// import "../styles/main.css";
 function projects() {
   return (
     <section className="bottom-50">
-      <div style={{ padding: '10px' }}>
+      <div className="projectsWrapper">
         <h1>
           SUM<span>M</span>
           <span>IT</span>
