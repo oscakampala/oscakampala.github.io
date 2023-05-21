@@ -62,7 +62,7 @@ export default function Home() {
           allowFullScreen></iframe>
       </div>
 
-      <div className='container mx-auto mt-20 max-w-6xl mx-auto'>
+      <div className='container mx-auto mt-20 max-w-6xl'>
         <h2 className='text-center py-20 bg-slate-300'>The Team</h2>
         <div className='grid md:grid-cols-2 xl:grid-cols-3 gap-8 justify-center pb-20 px-8 bg-slate-300'>
           {cardElement}
