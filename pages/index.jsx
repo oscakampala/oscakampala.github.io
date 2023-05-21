@@ -52,7 +52,7 @@ export default function Home() {
       <div className='container mx-auto text-center mt-[3rem] h-full'>
         <h2>Why OSCA?</h2>
         <iframe
-          className='container mx-auto w-[560px]'
+          className='container mx-auto w-[100%] md:w-[100%] sm:w-[90%]'
           width='560'
           height='315'
           src='https://www.youtube.com/embed/oylCYRfk0NQ'

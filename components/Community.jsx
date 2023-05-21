@@ -18,7 +18,7 @@ const Community = () => {
         </p>
       </div>
       <h1 className='px-5 text-3xl md:mt-10'>
-        Join a Large Growing Community in Town
+        Join a Large Open Source Growing Community in Town
       </h1>
       <p className='px-5 text-2xl pt-7'>
         This content is private (for you only)
@@ -221,7 +221,7 @@ const Form = () => {
         <div className='w-full flex justify-end'>
           <button
             type='submit'
-            className='mt-12 w-full md:w-36 rounded-md py-3 capitalize bg-[#5A75AB] text-white font-bold tracking-wider'>
+            className='mt-12 w-full md:w-36 rounded-md shadow-md hover:shadow-xl py-3 capitalize bg-[#5A75AB] text-white font-bold tracking-wider'>
             Submit
           </button>
         </div>
