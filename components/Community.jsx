@@ -18,7 +18,7 @@ const Community = () => {
         </p>
       </div>
       <h1 className='px-5 text-3xl md:mt-10'>
-        Join a Large Open Source Growing Community in Town
+        Join a Large Growing Open Source Community in Town
       </h1>
       <p className='px-5 text-2xl pt-7'>
         This content is private (for you only)
