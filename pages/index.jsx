@@ -51,13 +51,13 @@ export default function Home() {
       </div>
       <div className='container mx-auto text-center mt-[3rem] h-full'>
         <h2>Why OSCA?</h2>
+        {/* Increase the width and height of the youtube embed */}
         <iframe
-          className='container mx-auto w-[560px]'
-          width='560'
-          height='315'
+          className='container mx-auto w-[1000px]'
+          width='1000'
+          height='600'
           src='https://www.youtube.com/embed/oylCYRfk0NQ'
           title='YouTube video player'
-          frameBorder=''
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
           allowFullScreen></iframe>
       </div>
