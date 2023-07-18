@@ -21,7 +21,7 @@ export default function Home() {
     <section className='grid'>
       <div className='flex justify-center h-screen w-full relative'>
         <Image src={bgImg} layout='fill' objectFit='cover' />
-        <div className='containe md:mx-auto  flex-col justify-evenly text-white  text-sm absolute w-full p-5  text-center top-[300px] bg- backdrop-blur-sm bg-black/30 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg'>
+        <div className='container md:mx-auto  flex-col justify-evenly text-white  text-sm absolute w-full p-5  text-center top-[300px] bg- backdrop-blur-sm bg-black/30 rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg'>
           <h1 className=' text-white text-[30px] md:text-[60px]  '>
             Open Source Community <br />
             Africa{'{'}
