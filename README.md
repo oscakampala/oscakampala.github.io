@@ -28,7 +28,7 @@ If you need more help, please contact us at [oscakampala@gmail.com](mailto:oscak
 
 To get started in the open source there's a multitude of tools you can use but first of all you will need to know about OSCA Kampala. Read our **Introduction** section:
 
-📰 [**Subscribe to OSCA-KLA Newsletter**](https://www.getrevue.co/profile/oscakampala)
+📰 [**Subscribe to OSCA-KLA Newsletter**](https://oscakampala.org/joinComm)
 
 <img src="https://static.scarf.sh/a.png?x-pxid=cf317fe7-2188-4721-bc01-124bb5d5dbb2" />
 
