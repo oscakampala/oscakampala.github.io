@@ -10,6 +10,12 @@ import summitPoster from '../public/images/summitposter.jpg';
 import musokeSpeaker from '../public/images/musoke speaker.jpeg';
 import malingaSpeaker from '../public/images/malinga speaker.jpeg';
 import coverImage from '../public/images/community.jpg';
+import hiringInTech from '../public/images/ugDevFestSummit/Hiring in Tech.jpg';
+import PositioningUgandaTechTalent from '../public/images/ugDevFestSummit/Positioning Uganda tech talent.jpg';
+import UgDevFestSummit from '../public/images/ugDevFestSummit/Ug DevFest Summit.jpg';
+import announcingOurPartnership from '../public/images/ugDevFestSummit/Announcing our partnership.jpg';
+import tickets from '../public/images/ugDevFestSummit/Tickets.jpg';
+import uGDevLaunch from '../public/images/ugDevFestSummit/UG DEV launch.jpg';
 
 function events() {
   return (
@@ -33,8 +39,10 @@ function events() {
         </div>
       </div>
       <div className='max-w-6xl mx-auto mt-10'>
-        <div className='md:shadow-[0px_0px_0px_1px] md:mx-5 mx-auto'>
-          <Summit />
+
+        <div className='md:shadow-[0px_0px_0px_0px] md:mx-5 mx-auto'>
+          <DevFest />
+          {/* <Summit /> */}
           <ConceptNote />
           <Sponsors />
         </div>
@@ -43,6 +51,50 @@ function events() {
     </section>
   );
 }
+
+const DevFest = () => {
+  return (
+    <div className='px-6'>
+      <h1 className='text-[30px] py-8 text-center md:text-left'>
+        UG DEV SUMMIT
+      </h1>
+      <p className='tracking-widest text-center md:text-left pb-3'>
+        OUR PARTNERSHIP WITH REFACTORY
+      </p>
+     
+
+
+      <div class="grid grid-cols-2 md:grid-cols-2 gap-3">
+        <div class="grid gap-1">
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src={announcingOurPartnership.src} alt="" />
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src={PositioningUgandaTechTalent.src} alt="" />
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src={UgDevFestSummit.src} alt="" />
+          </div>
+
+        </div>
+        <div class="grid gap-2">
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src={uGDevLaunch.src} alt="" />
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src={tickets.src} alt="" />
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+  );
+};
+
 
 const Summit = () => {
   return (
