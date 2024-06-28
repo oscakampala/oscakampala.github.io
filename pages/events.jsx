@@ -42,8 +42,8 @@ function events() {
       <div className='max-w-6xl mx-auto mt-10'>
 
         <div className='md:shadow-[0px_0px_0px_0px] md:mx-5 mx-auto'>
-          <DevFest />
           {/* <Summit /> */}
+          <DevFest />
           <ConceptNote />
           <Sponsors />
         </div>
