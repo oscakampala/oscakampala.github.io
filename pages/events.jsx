@@ -62,28 +62,51 @@ const DevFest = () => {
       <p className='tracking-widest text-center md:text-left pb-3'>
         OUR PARTNERSHIP WITH REFACTORY
       </p>
-     
+
 
 
       <div class="grid grid-cols-2 md:grid-cols-2 gap-3">
         <div class="grid gap-1">
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={announcingOurPartnership.src} alt="" />
+            <Image
+              class="h-auto max-w-full rounded-lg"
+              alt='announcingOurPartnership'
+              src={announcingOurPartnership}
+
+            />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={PositioningUgandaTechTalent.src} alt="" />
+            <Image
+              class="h-auto max-w-full rounded-lg"
+              alt='PositioningUgandaTechTalent'
+              src={PositioningUgandaTechTalent}
+
+            />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={UgDevFestSummit.src} alt="" />
+            <Image
+              class="h-auto max-w-full rounded-lg"
+              alt='UgDevFestSummit'
+              src={UgDevFestSummit}
+
+            />
           </div>
 
         </div>
         <div class="grid gap-2">
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={uGDevLaunch.src} alt="" />
+            <Image
+              class="h-auto max-w-full rounded-lg"
+              alt='uGDevLaunch'
+              src={uGDevLaunch}
+            />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={tickets.src} alt="" />
+            <Image
+              class="h-auto max-w-full rounded-lg"
+              alt='tickets'
+              src={tickets}
+            />
           </div>
 
           <div></div>
