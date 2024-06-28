@@ -86,6 +86,8 @@ const DevFest = () => {
             <img class="h-auto max-w-full rounded-lg" src={tickets.src} alt="" />
           </div>
 
+          <div></div>
+
         </div>
 
 
