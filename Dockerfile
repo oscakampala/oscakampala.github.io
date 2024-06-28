@@ -10,7 +10,7 @@ WORKDIR /src
 COPY . /src
 
 # Install app and dependencies into /src in container
-RUN npm install
+RUN yarn install
 
 #Start app
 RUN npm run build
