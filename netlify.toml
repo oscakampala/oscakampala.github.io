@@ -1,6 +1,0 @@
-[build.environment]
-  NODE_VERSION = "14.17.0"
-  
-[build]
-  command = "yarn install && yarn build"
-  publish = "build"
