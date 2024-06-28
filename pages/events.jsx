@@ -17,6 +17,7 @@ import announcingOurPartnership from '../public/images/ugDevFestSummit/Announcin
 import tickets from '../public/images/ugDevFestSummit/Tickets.jpg';
 import uGDevLaunch from '../public/images/ugDevFestSummit/UG DEV launch.jpg';
 
+
 function events() {
   return (
     <section className=''>
