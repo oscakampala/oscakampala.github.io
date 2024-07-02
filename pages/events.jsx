@@ -17,6 +17,13 @@ import announcingOurPartnership from '../public/images/ugDevFestSummit/Announcin
 import tickets from '../public/images/ugDevFestSummit/Tickets.jpg';
 import uGDevLaunch from '../public/images/ugDevFestSummit/UG DEV launch.jpg';
 import refactoryLogo from '../public/images/ugDevFestSummit/Refactory_Logo.png';
+import ictau from '../public/images/ugDevFestSummit/ictau.jpeg';
+import laboremusLogo from '../public/images/ugDevFestSummit/labo remus.png';
+import mictLogo from '../public/images/ugDevFestSummit/mict-logo.png';
+import nationalICTinnovationHubLogo from '../public/images/ugDevFestSummit/national ICT innovation Hub.jpg';
+import nftConsultLogo from '../public/images/ugDevFestSummit/nft consult.jpg';
+import tekJuiceLogo from '../public/images/ugDevFestSummit/tek_juice_logo.jpg';
+
 
 
 function events() {
@@ -172,6 +179,7 @@ const ConceptNote = () => {
     <div className='mt-8 px-6'>
       <h2 className='px-0 capitalize'>Concept note</h2>
       <p>
+        Positioning Uganda's Tech Talent for Digital economy growth.
         Open collaboration often allows communities to achieve more than their
         members can do alone.{' '}
       </p>
@@ -191,47 +199,79 @@ const Sponsors = () => {
       <h2 className='px-0 text-center pt-8'>Event Sponsors</h2>
       <div className='w-full flex justify-between px-8'>
         {/* SVGs for small screens */}
-        <div className='sm:hidden'>
-          {/* <Image src={tungaSVG} alt='tunga svg' width={80} height={80} /> */}
-          <Image src={refactoryLogo} alt='refactoryLogo' width={400} height={80} />
-
-        </div>
-        <div className='sm:hidden'>
-          <Image
-            alt='innovation villageg'
-            src={innovationVillageSVG}
-            width={166}
-            height={88}
-          />
-        </div>
-        {/* SVGs for medium screens screens */}
-        <div className='hidden sm:block lg:hidden'>
-          {/* <Image src={tungaSVG} alt='tunga svg' width={188} height={188} /> */}
-          <Image src={refactoryLogo} alt='refactoryLogo' width={400} height={80} />
-
-        </div>
-        <div className='hidden sm:block lg:hidden'>
-          <Image
-            alt='innovation villageg'
-            src={innovationVillageSVG}
-            width={343}
-            height={188}
-          />
-        </div>
+        
         {/* SVGs for very large screens */}
-        <div className='hidden lg:block'>
+        <div className='block'>
           {/* <Image src={tungaSVG} alt='tunga svg' width={288} height={285} /> */}
-          <Image src={refactoryLogo} alt='refactoryLogo' width={400} height={80} />
+          <Image src={refactoryLogo} alt='refactoryLogo' width={400} height={80} className='w-full h-auto sm:w-1/2 md:w-1/3 lg:w-1/4' />
 
         </div>
-        <div className='hidden lg:block'>
+        <div className='block'>
           <Image
             alt='innovation villageg'
             src={innovationVillageSVG}
             width={543}
             height={288}
+            className='w-full h-auto sm:w-1/2 md:w-1/3 lg:w-1/4'
           />
         </div>
+
+        <div className='block'>
+          <Image
+            alt='ictau'
+            src={ictau}
+            width={543}
+            height={288}
+            className='w-full h-auto sm:w-1/2 md:w-1/3 lg:w-1/4'
+          />
+        </div>
+
+        <div className='block'>
+          <Image
+            alt='laboremusLogo'
+            src={laboremusLogo}
+            width={543}
+            height={288}
+            className='w-full h-auto sm:w-1/2 md:w-1/3 lg:w-1/4'
+          />
+        </div>
+        <div className='block'>
+          <Image
+            alt='mictLogo'
+            src={mictLogo}
+            width={543}
+            height={288}
+            className='w-full h-auto sm:w-1/2 md:w-1/3 lg:w-1/4'
+          />
+        </div>
+        <div className='block'>
+          <Image
+            alt='nationalICTinnovationHubLogo'
+            src={nationalICTinnovationHubLogo}
+            width={543}
+            height={288}
+            className='w-full h-auto sm:w-1/2 md:w-1/3 lg:w-1/4'
+          />
+        </div>
+        <div className='block'>
+          <Image
+            alt='nftConsultLogo'
+            src={nftConsultLogo}
+            width={543}
+            height={288}
+            className='w-full h-auto sm:w-1/2 md:w-1/3 lg:w-1/4'
+          />
+        </div>
+        <div className='block'>
+          <Image
+            alt='tekJuiceLogo'
+            src={tekJuiceLogo}
+            width={543}
+            height={288}
+            className='w-full h-auto sm:w-1/2 md:w-1/3 lg:w-1/4'
+          />
+        </div>
+
       </div>
     </div>
   );
