@@ -16,6 +16,7 @@ import UgDevFestSummit from '../public/images/ugDevFestSummit/Ug DevFest Summit.
 import announcingOurPartnership from '../public/images/ugDevFestSummit/Announcing our partnership.jpg';
 import tickets from '../public/images/ugDevFestSummit/Tickets.jpg';
 import uGDevLaunch from '../public/images/ugDevFestSummit/UG DEV launch.jpg';
+import refactoryLogo from '../public/images/ugDevFestSummit/Refactory_Logo.png';
 
 
 function events() {
@@ -191,7 +192,9 @@ const Sponsors = () => {
       <div className='w-full flex justify-between px-8'>
         {/* SVGs for small screens */}
         <div className='sm:hidden'>
-          <Image src={tungaSVG} alt='tunga svg' width={80} height={80} />
+          {/* <Image src={tungaSVG} alt='tunga svg' width={80} height={80} /> */}
+          <Image src={refactoryLogo} alt='refactoryLogo' width={400} height={80} />
+
         </div>
         <div className='sm:hidden'>
           <Image
@@ -203,7 +206,9 @@ const Sponsors = () => {
         </div>
         {/* SVGs for medium screens screens */}
         <div className='hidden sm:block lg:hidden'>
-          <Image src={tungaSVG} alt='tunga svg' width={188} height={188} />
+          {/* <Image src={tungaSVG} alt='tunga svg' width={188} height={188} /> */}
+          <Image src={refactoryLogo} alt='refactoryLogo' width={400} height={80} />
+
         </div>
         <div className='hidden sm:block lg:hidden'>
           <Image
@@ -215,7 +220,9 @@ const Sponsors = () => {
         </div>
         {/* SVGs for very large screens */}
         <div className='hidden lg:block'>
-          <Image src={tungaSVG} alt='tunga svg' width={288} height={285} />
+          {/* <Image src={tungaSVG} alt='tunga svg' width={288} height={285} /> */}
+          <Image src={refactoryLogo} alt='refactoryLogo' width={400} height={80} />
+
         </div>
         <div className='hidden lg:block'>
           <Image
