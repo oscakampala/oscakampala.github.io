@@ -10,18 +10,18 @@ import summitPoster from '../public/images/summitposter.jpg';
 import musokeSpeaker from '../public/images/musoke speaker.jpeg';
 import malingaSpeaker from '../public/images/malinga speaker.jpeg';
 import coverImage from '../public/images/community.jpg';
-import hiringInTech from '../public/images/ugDevFestSummit/Hiring in Tech.jpg';
-import PositioningUgandaTechTalent from '../public/images/ugDevFestSummit/Positioning Uganda tech talent.jpg';
-import UgDevFestSummit from '../public/images/ugDevFestSummit/Ug DevFest Summit.jpg';
-import announcingOurPartnership from '../public/images/ugDevFestSummit/Announcing our partnership.jpg';
+import hiringInTech from '../public/images/ugDevFestSummit/Hiring-in-Tech.jpg';
+import PositioningUgandaTechTalent from '../public/images/ugDevFestSummit/Positioning-Uganda-tech-talent.jpg';
+import UgDevFestSummit from '../public/images/ugDevFestSummit/Ug-DevFest-Summit.jpg';
+import announcingOurPartnership from '../public/images/ugDevFestSummit/Announcing-our-partnership.jpg';
 import tickets from '../public/images/ugDevFestSummit/Tickets.jpg';
-import uGDevLaunch from '../public/images/ugDevFestSummit/UG DEV launch.jpg';
+import uGDevLaunch from '../public/images/ugDevFestSummit/UG-DEV-launch.jpg';
 import refactoryLogo from '../public/images/ugDevFestSummit/Refactory_Logo.png';
 import ictau from '../public/images/ugDevFestSummit/ictau.jpeg';
-import laboremusLogo from '../public/images/ugDevFestSummit/labo remus.png';
+import laboremusLogo from '../public/images/ugDevFestSummit/labo-remus.png';
 import mictLogo from '../public/images/ugDevFestSummit/mict-logo.png';
-import nationalICTinnovationHubLogo from '../public/images/ugDevFestSummit/national ICT innovation Hub.jpg';
-import nftConsultLogo from '../public/images/ugDevFestSummit/nft consult.jpg';
+import nationalICTinnovationHubLogo from '../public/images/ugDevFestSummit/national-ICT-innovation-Hub.jpg';
+import nftConsultLogo from '../public/images/ugDevFestSummit/nft-consult.jpg';
 import tekJuiceLogo from '../public/images/ugDevFestSummit/tek_juice_logo.jpg';
 
 
